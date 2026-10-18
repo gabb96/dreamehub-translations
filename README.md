@@ -4,13 +4,13 @@
 
 [Türkçe](README.tr.md) · English
 
-[![Download for macOS](https://img.shields.io/badge/Download_for_macOS-Apple_Silicon-3478F6?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/retoucheroz/dreamehub/releases/download/v0.2.0/Dreame-Hub-Swift-0.2.0-preview-arm64.dmg)
+[![Download for macOS](https://img.shields.io/badge/Download_for_macOS-Apple_Silicon-3478F6?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/retoucheroz/dreamehub/releases/download/v0.2.1/Dreame-Hub-Swift-0.2.1-preview-arm64.dmg)
 
-**[Download v0.2.0 DMG](https://github.com/retoucheroz/dreamehub/releases/download/v0.2.0/Dreame-Hub-Swift-0.2.0-preview-arm64.dmg)** · macOS 13+ · M1/M2/M3/M4 or later Apple Silicon. Open the DMG, drag the app into Applications, then launch it and use the menu-bar icon. This preview is ad-hoc signed, not Apple-notarized; macOS may require approval in Privacy & Security. Intel Macs are not supported by this download. [Release notes](https://github.com/retoucheroz/dreamehub/releases/tag/v0.2.0).
+**[Download v0.2.1 DMG](https://github.com/retoucheroz/dreamehub/releases/download/v0.2.1/Dreame-Hub-Swift-0.2.1-preview-arm64.dmg)** · macOS 13+ · M1/M2/M3/M4 or later Apple Silicon. Open the DMG, drag the app into Applications, then launch it and use the menu-bar icon. This preview is ad-hoc signed, not Apple-notarized; macOS may require approval in Privacy & Security. Intel Macs are not supported by this download. [Release notes](https://github.com/retoucheroz/dreamehub/releases/tag/v0.2.1).
 
 Control your robot, explore its map and see what it found — from a compact macOS menu-bar panel. **No rooting the robot. No Python runtime.** Built with Swift, with the established interface preserved in Apple's WKWebView.
 
-![Dreame Hub overview and cleaning controls](docs/media/app-overview.png)
+![Dreame Hub overview and cleaning controls](docs/media/app-overview.jpg)
 
 ## A cleaner view of cleaning
 
@@ -18,23 +18,31 @@ Control your robot, explore its map and see what it found — from a compact mac
 
 **Your home, from a different angle.** Zoom, rotate and explore the 3D map. Review previous cleans, inspect the recorded route or choose a target on the map. Robot movement eases between received positions and directions, then stops at the latest observation — no invented movement when updates stop.
 
-![Dreame Hub map](docs/media/map.png)
+![Dreame Hub map](docs/media/map.jpg)
 
 **See what your robot noticed.** Open recorded object detections and available photos directly from the map. Availability depends on the robot and the saved record.
 
-![Recorded object photo](docs/media/photo.png)
+![Recorded object photo](docs/media/photo.jpg)
 
 **Give your robot a voice.** Browse announcements, preview them on your Mac and prepare custom sound replacements. Keep track of brushes, filters and station maintenance in the same app.
 
-![Voice previews and custom sound controls](docs/media/voice.png)
+![Voice previews and custom sound controls](docs/media/voice.jpg)
 
 ## Watch it in use
+
+https://github.com/user-attachments/assets/c0216a06-294b-4b40-84a7-342442fc6f57
 
 [Desktop walkthrough · landscape](docs/media/actual-ui-landscape.mp4) · [Mobile-friendly walkthrough · portrait](docs/media/actual-ui-portrait.mp4)
 
 These 30-second demos show the actual interface, map zoom and orbit, wall controls, route trails, map points, wireframe, 2D/3D/Clay/POV views, object photos and voice customization, with an original electronic soundtrack. Robot movement is simulated for filming; the physical robot was not operated.
 
 ## Get started
+
+[Illustrated installation & macOS security guide](docs/INSTALL.md) · [Login and server-region help](docs/LOGIN-REGIONS.md)
+
+![Copy to Applications and approve only this app if macOS blocks it](docs/media/install-guide.svg)
+
+**Login region:** choose your Dreamehome account's server, not necessarily your current country. If Europe rejects a verified account or shows no robot, Singapore / Other may be the correct alternative. USA, China and Russia are also available for accounts registered there. Re-enter your password when changing a saved region; a blank password can reuse the old saved region. [All options and troubleshooting](docs/LOGIN-REGIONS.md).
 
 Requires an Apple Silicon Mac, macOS 13 or later and a Dreame account. Sign in, select your robot and open Dreame Hub from its menu-bar icon. Saved credentials stay in macOS Keychain.
 

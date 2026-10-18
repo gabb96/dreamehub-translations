@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1060" viewBox="0 0 1200 1060" role="img" aria-labelledby="title desc">
+<title id="title">Dreame Hub — Kurulum / Installation</title><desc id="desc">Copy to Applications, launch once, then if blocked use Privacy and Security Open Anyway only for this app. Illustrative diagram, not a screenshot.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10" fill="#65a5ff"/></marker></defs>
+<rect width="1200" height="1060" rx="28" fill="#101722"/>
+<g font-family="Arial,Helvetica,sans-serif" fill="#f4f7fc">
+<text x="56" y="65" font-size="30" font-weight="700">Dreame Hub</text><text x="56" y="107" font-size="22" fill="#aabbd0">Kurulum ve ilk açılış · Installation and first launch</text>
+<rect x="40" y="140" width="1120" height="240" rx="18" fill="#1b2635"/>
+<circle cx="78" cy="182" r="20" fill="#3478f6"/><text x="71" y="190" font-size="23">1</text>
+<text x="118" y="190" font-size="25" font-weight="700">Applications’a sürükle / Drag into Applications</text>
+<rect x="110" y="222" width="290" height="90" rx="15" fill="#263b54"/><text x="139" y="275" font-size="25">Dreame Hub Swift.app</text>
+<path d="M435 265 H680" stroke="#65a5ff" stroke-width="5" marker-end="url(#arrow)"/>
+<path d="M740 229 h90 l18 16 h190 v75 H740z" fill="#3478f6"/><text x="789" y="290" font-size="26">Applications</text>
+<text x="110" y="351" font-size="20" fill="#bccbdb">Sonra Applications içinden aç. / Then launch it from Applications.</text>
+<rect x="40" y="400" width="1120" height="330" rx="18" fill="#1b2635"/>
+<circle cx="78" cy="442" r="20" fill="#3478f6"/><text x="71" y="450" font-size="23">2</text>
+<text x="118" y="450" font-size="25" font-weight="700">Yalnız engellenirse / Only if macOS blocks the app</text>
+<text x="110" y="492" font-size="20" fill="#bccbdb"> → Sistem Ayarları → Gizlilik ve Güvenlik → Güvenlik</text>
+<text x="110" y="523" font-size="20" fill="#bccbdb"> → System Settings → Privacy &amp; Security → Security</text>
+<rect x="110" y="551" width="980" height="135" rx="14" fill="#263548" stroke="#43566f"/>
+<text x="138" y="589" font-size="22" font-weight="700">Dreame Hub Swift</text>
+<text x="138" y="622" font-size="18" fill="#bccbdb">Geliştirici doğrulanamadı / Developer could not be verified</text>
+<rect x="745" y="640" width="315" height="34" rx="9" fill="#3478f6"/><text x="774" y="664" font-size="18" font-weight="700">Yine de Aç / Open Anyway</text>
+<text x="138" y="663" font-size="18" fill="#8ebcff">Yalnız bu uygulama için →</text>
+<rect x="40" y="750" width="1120" height="190" rx="18" fill="#1b2635"/>
+<circle cx="78" cy="792" r="20" fill="#3478f6"/><text x="71" y="800" font-size="23">3</text>
+<text x="118" y="800" font-size="25" font-weight="700">Onayla ve menü çubuğundan aç / Confirm and use the menu bar</text>
+<text x="110" y="846" font-size="21" fill="#bccbdb">Uygulama adını kontrol et → Aç. İstenirse Mac parolanla / Touch ID ile onayla.</text>
+<text x="110" y="882" font-size="21" fill="#bccbdb">Check the app name → Open. Authenticate with your Mac password / Touch ID if asked.</text>
+<text x="56" y="981" font-size="20" fill="#e1bd80">Gatekeeper’ı kapatma. / Do not disable Gatekeeper.</text>
+<text x="56" y="1018" font-size="17" fill="#94a8bf">Temsili şema; macOS sürümüne göre metin/yerleşim değişir. / Illustration; macOS wording and layout vary.</text>
+</g></svg>
