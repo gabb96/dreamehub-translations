@@ -28,13 +28,11 @@ Control your robot, explore its map and see what it found — from a compact mac
 
 ![Voice previews and custom sound controls](docs/media/voice.jpg)
 
-## Watch it in use
+## Meet Dreame Hub
 
 https://github.com/user-attachments/assets/c0216a06-294b-4b40-84a7-342442fc6f57
 
-[Desktop walkthrough · landscape](docs/media/actual-ui-landscape.mp4) · [Mobile-friendly walkthrough · portrait](docs/media/actual-ui-portrait.mp4)
-
-These 30-second demos show the actual interface, map zoom and orbit, wall controls, route trails, map points, wireframe, 2D/3D/Clay/POV views, object photos and voice customization, with an original electronic soundtrack. Robot movement is simulated for filming; the physical robot was not operated.
+The product film uses the actual interface and recorded map. Robot motion is simulated for the shoot.
 
 ## Get started
 

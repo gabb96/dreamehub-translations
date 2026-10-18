@@ -28,13 +28,11 @@ Robotunu kontrol et, haritasını keşfet, gördüğü nesneleri incele. Hepsi m
 
 ![Ses önizlemeleri ve özel ses kontrolleri](docs/media/voice.jpg)
 
-## Kullanırken gör
+## Dreame Hub ile tanış
 
 https://github.com/user-attachments/assets/c0216a06-294b-4b40-84a7-342442fc6f57
 
-[Yatay kullanım videosu](docs/media/actual-ui-landscape.mp4) · [Dikey kullanım videosu](docs/media/actual-ui-portrait.mp4)
-
-30 saniyelik tanıtımlarda gerçek arayüz, haritada yakınlaştırma ve orbit, duvar kontrolleri, rota izi, harita noktaları, wireframe, 2D/3D/Clay/POV görünümleri, nesne fotoğrafları ve ses özelleştirme özgün elektronik müzik eşliğinde gösterilir. Çekimdeki robot hareketi simülasyondur; fiziksel robot çalıştırılmadı.
+Tanıtımda gerçek arayüz ve kayıtlı harita kullanılır. Robot hareketi çekim için simüle edilmiştir.
 
 ## Başlangıç
 
