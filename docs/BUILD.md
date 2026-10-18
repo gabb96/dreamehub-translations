@@ -9,9 +9,9 @@ bash build-app.sh
 open "build/Dreame Hub Swift.app"
 ```
 
-The local build is ad-hoc signed, not notarized. No prebuilt binary is included in this source release. The public build uses neutral artwork; official product artwork and icon are not redistributed as application assets.
+The local build and downloadable v0.2.0 DMG are ad-hoc signed, not notarized. The public build uses neutral artwork; official product artwork and icon are not redistributed as application assets.
 
-Yerel derleme ad-hoc imzalıdır; Apple noter onayı yoktur. Bu kaynak yayınında hazır uygulama paketi bulunmaz. Genel kaynak sürümü nötr görseller kullanır; resmi ürün görselleri ve ikon uygulama varlığı olarak dağıtılmaz.
+Yerel derleme ve indirilebilir v0.2.0 DMG ad-hoc imzalıdır; Apple noter onayı yoktur. Genel kaynak sürümü nötr görseller kullanır; resmi ürün görselleri ve ikon uygulama varlığı olarak dağıtılmaz.
 
 ## Optional custom audio conversion / İsteğe bağlı ses dönüştürme
 

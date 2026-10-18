@@ -4,6 +4,10 @@
 
 [Türkçe](README.tr.md) · English
 
+[![Download for macOS](https://img.shields.io/badge/Download_for_macOS-Apple_Silicon-3478F6?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/retoucheroz/dreamehub/releases/download/v0.2.0/Dreame-Hub-Swift-0.2.0-preview-arm64.dmg)
+
+**[Download v0.2.0 DMG](https://github.com/retoucheroz/dreamehub/releases/download/v0.2.0/Dreame-Hub-Swift-0.2.0-preview-arm64.dmg)** · macOS 13+ · M1/M2/M3/M4 or later Apple Silicon. Open the DMG, drag the app into Applications, then launch it and use the menu-bar icon. This preview is ad-hoc signed, not Apple-notarized; macOS may require approval in Privacy & Security. Intel Macs are not supported by this download. [Release notes](https://github.com/retoucheroz/dreamehub/releases/tag/v0.2.0).
+
 Control your robot, explore its map and see what it found — from a compact macOS menu-bar panel. **No rooting the robot. No Python runtime.** Built with Swift, with the established interface preserved in Apple's WKWebView.
 
 ![Dreame Hub overview and cleaning controls](docs/media/app-overview.png)

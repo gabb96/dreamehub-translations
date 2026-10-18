@@ -4,6 +4,10 @@
 
 Türkçe · [English](README.md)
 
+[![macOS için indir](https://img.shields.io/badge/macOS_i%C3%A7in_indir-Apple_Silicon-3478F6?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/retoucheroz/dreamehub/releases/download/v0.2.0/Dreame-Hub-Swift-0.2.0-preview-arm64.dmg)
+
+**[v0.2.0 DMG indir](https://github.com/retoucheroz/dreamehub/releases/download/v0.2.0/Dreame-Hub-Swift-0.2.0-preview-arm64.dmg)** · macOS 13+ · M1/M2/M3/M4 ve sonraki Apple Silicon Mac’ler. DMG’yi aç, uygulamayı Applications klasörüne sürükle, başlat ve menü çubuğundaki ikonunu kullan. Bu önizleme ad-hoc imzalıdır; Apple noter onayı yoktur. İlk açılışta Gizlilik ve Güvenlik bölümünden onay gerekebilir. Bu indirme Intel Mac’leri desteklemez. [Sürüm notları](https://github.com/retoucheroz/dreamehub/releases/tag/v0.2.0).
+
 Robotunu kontrol et, haritasını keşfet, gördüğü nesneleri incele. Hepsi macOS menü çubuğundan açılan sade bir panelde. **Robota root gerekmez. Python çalıştırılmaz.** Swift ile geliştirilir; mevcut arayüz Apple WKWebView içinde korunur.
 
 ![Dreame Hub özet ekranı ve temizlik kontrolleri](docs/media/app-overview.png)
