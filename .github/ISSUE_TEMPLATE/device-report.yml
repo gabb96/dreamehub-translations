@@ -1,0 +1,43 @@
+name: Device compatibility / Cihaz uyumluluğu
+description: Share your model's results to help expand verified compatibility.
+title: "[Device] Model name"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help other Dreame owners find out what works on their model. Report only what you actually tried; reading status and maps is enough.
+        Diğer Dreame kullanıcılarına yardımcı olmak için yalnız denediğiniz özellikleri bildirin; durum ve harita okuma yeterlidir.
+        Do not attach passwords, tokens, account IDs, private home maps or object photos. / Parola, token, hesap kimliği, özel ev haritası veya nesne fotoğrafı eklemeyin.
+  - type: input
+    id: model
+    attributes:
+      label: Robot model / Robot modeli
+      placeholder: L10s Pro Ultra Heat
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: App and macOS versions / Uygulama ve macOS sürümleri
+      placeholder: Dreame Hub 0.2.1; macOS 15; M2
+    validations:
+      required: true
+  - type: dropdown
+    id: region
+    attributes:
+      label: Account server / Hesap sunucusu
+      options:
+        - Europe
+        - Singapore / Other
+        - USA
+        - China
+        - Russia
+        - Unknown / Bilmiyorum
+  - type: textarea
+    id: results
+    attributes:
+      label: What worked and what did not? / Neler çalıştı, neler çalışmadı?
+      description: Include login, device selection, status, map, object photos or voice previews. Mark untested features as untested.
+      placeholder: "Login: works. Status: works. Map: works. Object photos: not tested. Physical controls: not tested."
+    validations:
+      required: true

@@ -53,6 +53,10 @@ open "build/Dreame Hub Swift.app"
 
 Robota komut göndermeden incelemek için açılış komutuna `--args --read-only` ekle. Özel ses dönüştürme isteğe bağlı yerel libsndfile kurulumunu kullanır; [derleme ayrıntıları](docs/BUILD.md).
 
+## Cihaz uyumluluğuna katkıda bulun
+
+Dreame Hub’ı robotunuzla denediniz mi? Diğer kullanıcıların hangi özelliklerin çalıştığını görebilmesi için [modelinizin sonuçlarını paylaşın](https://github.com/retoucheroz/dreamehub/issues/new?template=device-report.yml). [Katkı rehberi](CONTRIBUTING.md).
+
 ## Modeller
 
 Model kataloğunda **L10s Pro Ultra Heat, L20 Ultra, L40/L40s Ultra, L50 Ultra, L60 Ultra, X40/X50/X60 Ultra, Matrix10, Aqua10, D20 ve D30 çeşitleri** bulunur. [Tam model listesi ve özellik kapsamı](docs/SUPPORTED-MODELS.md).

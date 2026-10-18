@@ -53,6 +53,10 @@ open "build/Dreame Hub Swift.app"
 
 For inspection without issuing robot commands, append `--args --read-only` to the launch command. Custom audio conversion uses an optional local libsndfile installation; see [build details](docs/BUILD.md).
 
+## Help expand device compatibility
+
+Tried Dreame Hub with your robot? [Share your model's results](https://github.com/retoucheroz/dreamehub/issues/new?template=device-report.yml) so other owners can see what works. [Contribute](CONTRIBUTING.md).
+
 ## Models
 
 The model catalog includes **L10s Pro Ultra Heat, L20 Ultra, L40/L40s Ultra, L50 Ultra, L60 Ultra, X40/X50/X60 Ultra, Matrix10, Aqua10, D20 and D30 variants**. [Full model list and feature coverage](docs/SUPPORTED-MODELS.md).
