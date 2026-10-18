@@ -1,0 +1,1288 @@
+{
+  "0": {
+    "name": "Başlangıç melodisi",
+    "transcript": "[Başlangıç melodisi]",
+    "confidence": "verified"
+  },
+  "1": {
+    "name": "Ağ yapılandırması bekleniyor",
+    "transcript": "A yapılandırması bekleniyor.",
+    "confidence": "verified"
+  },
+  "2": {
+    "name": "Wi-Fi ağına bağlanılamıyor",
+    "transcript": "Wi-Fi A'na bağlanılamıyor. Lütfen Wi-Fi şifresini kontrol edin ve daha sonra tekrar deneyin.",
+    "confidence": "verified"
+  },
+  "3": {
+    "name": "Sunucuya bağlanılamıyor",
+    "transcript": "Sunucuya bağlanılamıyor. Lütfen yere lağınızı kontrol edin ve daha sonra tekrar deneyin.",
+    "confidence": "verified"
+  },
+  "4": {
+    "name": "Robot ağ yapılandırma modundan çıktı",
+    "transcript": "Süpürge A yapılandırma modundan çıktı.",
+    "confidence": "verified"
+  },
+  "5": {
+    "name": "Ağ başarıyla bağlandı",
+    "transcript": "A başarı ile bağlandı.",
+    "confidence": "verified"
+  },
+  "6": {
+    "name": "Ağ bağlantısı başarısız oldu",
+    "transcript": "A bağlantısı başarısız oldu. Lütfen daha sonra tekrar deneyin.",
+    "confidence": "verified"
+  },
+  "7": {
+    "name": "Temizlemeye başla",
+    "transcript": "Temizlemeye başla.",
+    "confidence": "verified"
+  },
+  "8": {
+    "name": "Nokta temizlemeye başlayın",
+    "transcript": "nokta temizleyeni başlat.",
+    "confidence": "verified"
+  },
+  "9": {
+    "name": "Planlanmış temizliği başlat",
+    "transcript": "Zamanlanmış temizliği başlat.",
+    "confidence": "verified"
+  },
+  "10": {
+    "name": "Temizliğe devam etmeye başlayın",
+    "transcript": "Demizliğe devam etmeye başlayın.",
+    "confidence": "verified"
+  },
+  "11": {
+    "name": "Duraklatıldı",
+    "transcript": "Duraklatıldı.",
+    "confidence": "verified"
+  },
+  "12": {
+    "name": "Temizleme görevi tamamlandı",
+    "transcript": "Temizleme görevi tamamlandı.",
+    "confidence": "verified"
+  },
+  "13": {
+    "name": "Şarj etmek için istasyona dönüyoruz",
+    "transcript": "Şarj etmek için iskeleye dönüyor.",
+    "confidence": "verified"
+  },
+  "14": {
+    "name": "Düşük pil: şarj edip devam",
+    "transcript": "Düşük pil şarj etmek için yuvaya dönüyor. Süpürge şarj olduktan sonra çalışmaya devam edecektir.",
+    "confidence": "verified"
+  },
+  "17": {
+    "name": "Lütfen robotu şarj olması için istasyon'a taşıyın",
+    "transcript": "Lütfen süpürgeyi şarj etmek için şarj istasyonuna götürün.",
+    "confidence": "verified"
+  },
+  "18": {
+    "name": "Şarj oluyor",
+    "transcript": "Şarj oluyor.",
+    "confidence": "verified"
+  },
+  "19": {
+    "name": "Lütfen robotu kapatmadan önce istasyon'tan çıkarın",
+    "transcript": "Lütfen kapatmadan önce süpürgeyi yuvadan çıkarın.",
+    "confidence": "verified"
+  },
+  "20": {
+    "name": "Düşük pil",
+    "transcript": "Düşük pil",
+    "confidence": "verified"
+  },
+  "21": {
+    "name": "Düşük pil: robot kapanacak",
+    "transcript": "Düşük pil, süpürge kapanacaktır.",
+    "confidence": "verified"
+  },
+  "25": {
+    "name": "Düşük pil: zamanlanmış görev yapılamıyor",
+    "transcript": "Düşük pil, programdan almış temizleme gerçekleştirilemiyor.",
+    "confidence": "verified"
+  },
+  "26": {
+    "name": "Fabrika ayarlarına geri yükleme",
+    "transcript": "Fabrika ayarlarına geri yükleme",
+    "confidence": "verified"
+  },
+  "27": {
+    "name": "Güncelleniyor",
+    "transcript": "Güncelleniyor. Yaklaşık 5 dakika sürüyor. Kapatmayın veya bir temizlik görevi başlatmayın.",
+    "confidence": "verified"
+  },
+  "28": {
+    "name": "Başarıyla güncellendi",
+    "transcript": "Başarı ile güncelendi.",
+    "confidence": "verified"
+  },
+  "29": {
+    "name": "Güncelleme başarısız oldu, lütfen tekrar deneyin",
+    "transcript": "Güncelleme başarısız oldu. Lütfen daha sonra tekrar deneyin.",
+    "confidence": "verified"
+  },
+  "30": {
+    "name": "Konumlandırma, lütfen bekleyin",
+    "transcript": "Konumlandırma. Lütfen bekleyin.",
+    "confidence": "verified"
+  },
+  "31": {
+    "name": "Konumlandırma başarısız oldu",
+    "transcript": "Konumlandırma başarısız oldu. Harita geçersiz. Süpürge yeni bir temizlik başlatacak.",
+    "confidence": "verified"
+  },
+  "34": {
+    "name": "Çöp kutusu takılı değil",
+    "transcript": "Toz kutusu takılı değil. Lütfen kurun.",
+    "confidence": "verified"
+  },
+  "35": {
+    "name": "Ana fırça hatası",
+    "transcript": "Ana fırça hatası. Lütfen kontrol edin ve temizleyin.",
+    "confidence": "verified"
+  },
+  "36": {
+    "name": "Yan fırça hatası",
+    "transcript": "Yan fırça hatası. Lütfen kontrol edin ve temizleyin.",
+    "confidence": "verified"
+  },
+  "37": {
+    "name": "Sağ tekerlek hatası",
+    "transcript": "Sağ tekerlek hatası. Lütfen kontrol edin ve temizleyin.",
+    "confidence": "verified"
+  },
+  "38": {
+    "name": "Sol tekerlek hatası",
+    "transcript": "Sol tekerlek hatası. Lütfen kontrol edin ve temizleyin.",
+    "confidence": "verified"
+  },
+  "39": {
+    "name": "Lütfen uçurum sensörünü temizleyin",
+    "transcript": "Tekerlekler yerle temas halinde değil. Lütfen uçurum sensörlerini silin, robotu yeniden konumlandırın ve yeniden çalıştırın.",
+    "confidence": "verified"
+  },
+  "40": {
+    "name": "Robot sıkışmış",
+    "transcript": "Robot sıkıştı. Lütfen etrafındaki engelleri kaldırın.",
+    "confidence": "verified"
+  },
+  "41": {
+    "name": "Robotun tekerlekleri askıya alındı",
+    "transcript": "Tekerlekler yerle temas halinde değil. Lütfen robotu yeniden konumlandırın ve yeniden çalıştırın.",
+    "confidence": "verified"
+  },
+  "42": {
+    "name": "Lütfen filtreyi kontrol edip temizleyin",
+    "transcript": "Lütfen filtreyi kontrol edin ve temizleyin.",
+    "confidence": "verified"
+  },
+  "43": {
+    "name": "Tampon hatası",
+    "transcript": "Tampon hatası. Geri tepmediğini görmek için lütfen hafifçe vurun.",
+    "confidence": "verified"
+  },
+  "44": {
+    "name": "Hata",
+    "transcript": "Hatta. Lütfen kullanım kılavuzunu kontrol edin veya müşteri hizmetleriyle iletişime geçin.",
+    "confidence": "verified"
+  },
+  "45": {
+    "name": "Buradayım",
+    "transcript": "Buradayım.",
+    "confidence": "verified"
+  },
+  "46": {
+    "name": "Robot ve telefon birbirine bağlandı",
+    "transcript": "Süpürge ve telefon bağlı. Sonucu beklemek için lütfen uygulamaya dönün.",
+    "confidence": "verified"
+  },
+  "47": {
+    "name": "Şarj etmeye başla",
+    "transcript": "Şarj etmeye başla.",
+    "confidence": "verified"
+  },
+  "48": {
+    "name": "Düşük pil: istasyona dönüyor",
+    "transcript": "Düşük pil, şarj istasyonuna geri dönüyor.",
+    "confidence": "verified"
+  },
+  "50": {
+    "name": "Şarj hatası",
+    "transcript": "Şarj hatası. Lütfen şarj kontaklarını temizleyin.",
+    "confidence": "verified"
+  },
+  "52": {
+    "name": "Robot eğik",
+    "transcript": "Süpürge eğildi. Yeniden başlatmak için lütfen düz bir zemine koyun.",
+    "confidence": "verified"
+  },
+  "54": {
+    "name": "Konum bulundu: temizliğe devam",
+    "transcript": "Konumlandırma başarılı. Temizlemeye devam ediliyor.",
+    "confidence": "verified"
+  },
+  "55": {
+    "name": "Konum bulundu: istasyona dönüş",
+    "transcript": "Konumlandırma başarılı. İskere'ye geri dönmeye devam edildi.",
+    "confidence": "verified"
+  },
+  "56": {
+    "name": "Seçilen oda temizliğini başlat",
+    "transcript": "Seçilen Oda temizleyeni başlat.",
+    "confidence": "verified"
+  },
+  "57": {
+    "name": "Bölgeli temizliği başlat",
+    "transcript": "Bölgesel temizliği başlat.",
+    "confidence": "verified"
+  },
+  "58": {
+    "name": "Temizleme görevine devam edin",
+    "transcript": "Temizleme görevine devam edin.",
+    "confidence": "verified"
+  },
+  "59": {
+    "name": "Paspaslama tamamlandı",
+    "transcript": "Paspaslama tamamlandı. Lütfen su deposunu zamanında çıkarın.",
+    "confidence": "verified"
+  },
+  "61": {
+    "name": "Paspaslamaya başla",
+    "transcript": "Paspaslamaya başla.",
+    "confidence": "verified"
+  },
+  "62": {
+    "name": "Uzaktan kumanda temizliğini başlatın",
+    "transcript": "Uzaktan kumanda temizleyeni başlatın.",
+    "confidence": "verified"
+  },
+  "64": {
+    "name": "Geçersiz harita: istasyona dönüş",
+    "transcript": "Konumlandırma başarısız oldu. Harita geçersiz. Süpürge şarj istasyonuna dönecek.",
+    "confidence": "verified"
+  },
+  "65": {
+    "name": "İskeleye dönmeye devam et",
+    "transcript": "İskeleye dönmeye devam edin.",
+    "confidence": "verified"
+  },
+  "66": {
+    "name": "Filtre aşınmış",
+    "transcript": "Filtre aşınmış. Lütfen zamanında değiştirin.",
+    "confidence": "verified"
+  },
+  "67": {
+    "name": "Yan fırça aşınmış",
+    "transcript": "Yan fırça aşılmış. Lütfen zamanında değiştirin.",
+    "confidence": "verified"
+  },
+  "68": {
+    "name": "Ana fırça aşınmış",
+    "transcript": "Ana fırça aşınmış. Lütfen zamanında değiştirin.",
+    "confidence": "verified"
+  },
+  "71": {
+    "name": "Lazer sensör hatası",
+    "transcript": "Lütfen laser mesafe sensöründe herhangi bir sıkışma olup olmadığını kontrol edin.",
+    "confidence": "verified"
+  },
+  "72": {
+    "name": "LDS kapağı sıkışmış",
+    "transcript": "Lütfen laser mesafe sensörü kapağının sıkışıp sıkışmadığını kontrol edin.",
+    "confidence": "verified"
+  },
+  "73": {
+    "name": "Kenar sensörü hatası",
+    "transcript": "Kenar sensörü hatası Lütfen kontrol edin ve temizleyin.",
+    "confidence": "verified"
+  },
+  "75": {
+    "name": "Filtre kuru olmayabilir veya tıkalı olabilir",
+    "transcript": "Filtre kuru olmayabilir veya tıkanmış olabilir.",
+    "confidence": "verified"
+  },
+  "77": {
+    "name": "Lütfen robotu halı olmayan alanda başlatın",
+    "transcript": "Lütfen süpürgeyi halı olmayan alanda çalıştırın.",
+    "confidence": "verified"
+  },
+  "81": {
+    "name": "Ultrasonik sensör hatası",
+    "transcript": "Halı sensörü hatası. Lütfen robotu yeniden başlatın veya müşteri hizmetleriyle iletişime geçin.",
+    "confidence": "verified"
+  },
+  "82": {
+    "name": "Haritalamayı başlat",
+    "transcript": "Eşlemeye başla.",
+    "confidence": "verified"
+  },
+  "83": {
+    "name": "Haritalamaya devam edin",
+    "transcript": "Eşleme ile devam edin.",
+    "confidence": "verified"
+  },
+  "84": {
+    "name": "Haritalama tamamlandı",
+    "transcript": "haritalama tamamlandı",
+    "confidence": "verified"
+  },
+  "85": {
+    "name": "Konum bulundu: haritalamaya devam",
+    "transcript": "Konumlandırma başarılı eşlemeye devam ediliyor.",
+    "confidence": "verified"
+  },
+  "86": {
+    "name": "Konum bulunamadı: haritalamayı yenile",
+    "transcript": "Konumlandırma başarısız. Eşleme yeniden başlatılıyor.",
+    "confidence": "verified"
+  },
+  "87": {
+    "name": "Düşük pil: istasyona dönüyor",
+    "transcript": "Düşük pil, şarj istasyonuna geri dönüyor.",
+    "confidence": "verified"
+  },
+  "91": {
+    "name": "Temiz su deposu takılı değil",
+    "transcript": "Taze depo kurulu değil. Lütfen kurun.",
+    "confidence": "verified"
+  },
+  "93": {
+    "name": "Temiz su deposunda yeterli su yok",
+    "transcript": "Taze depodaki su seviyesi düşük. Lütfen su ekleyin.",
+    "confidence": "verified"
+  },
+  "97": {
+    "name": "Toz toplama torbası takılı değil",
+    "transcript": "Lütfen toz toplama torbasını takın.",
+    "confidence": "verified"
+  },
+  "102": {
+    "name": "Toz toplama torbası dolu veya hava kanalı tıkalı",
+    "transcript": "Tost toplama torbası dolu veya hava kanalı tıkalı. Lütfen torbayı değiştirin veya hava kanalını zamanında temizleyin.",
+    "confidence": "verified"
+  },
+  "105": {
+    "name": "Temizlemeye başla",
+    "transcript": "Temizlemeye başla.",
+    "confidence": "verified"
+  },
+  "106": {
+    "name": "Paspas temizlemeye başlayın",
+    "transcript": "Paspas pedlerini temizlemeye başlayın.",
+    "confidence": "verified"
+  },
+  "107": {
+    "name": "Paspasın suyunu kurutmaya başlayın",
+    "transcript": "Paspas pedlerini kurutmaya başlayın.",
+    "confidence": "verified"
+  },
+  "108": {
+    "name": "Paspas yıkama tahtasının su seviyesi anormal",
+    "transcript": "Temiz su seviyesinde bir hata var. Lütfen zamanında temizleyin.",
+    "confidence": "verified"
+  },
+  "109": {
+    "name": "Kirli su deposunda istisna oluştu",
+    "transcript": "Atık deposu hatası. Lütfen kurulu ve boş olduğundan emin olun.",
+    "confidence": "verified"
+  },
+  "110": {
+    "name": "Otomatik boşaltmayı başlat",
+    "transcript": "Otomatik başlatmayı başlat.",
+    "confidence": "verified"
+  },
+  "111": {
+    "name": "Paspas pedleri kapalı",
+    "transcript": "Paspas pedleri kapalı. Lütfen çalışmaya devam etmeden önce bunları takın.",
+    "confidence": "verified"
+  },
+  "112": {
+    "name": "Robotu yıkama istasyonuna yerleştir",
+    "transcript": "Kullanmadan önce süpürgeyi kendi kendine yıkıyan tabana geri yerleştirin.",
+    "confidence": "verified"
+  },
+  "113": {
+    "name": "Görev tamamlandı",
+    "transcript": "Görev tamamlandı. Lütfen atık deposunu zamanında boşaltın.",
+    "confidence": "verified"
+  },
+  "114": {
+    "name": "Paspaslar takıldı",
+    "transcript": "Paspas Pedleri Takılı",
+    "confidence": "verified"
+  },
+  "115": {
+    "name": "Paspaslar kaldırıldı",
+    "transcript": "Paspas pedleri kaldırıldı.",
+    "confidence": "verified"
+  },
+  "116": {
+    "name": "Çocuk kilidi açık",
+    "transcript": "Çocuk kilidi açık, düğmeler kilitli.",
+    "confidence": "verified"
+  },
+  "117": {
+    "name": "Çocuk kilidi kapalı",
+    "transcript": "Çocuk kilidi kapalı. Düğmeler açık.",
+    "confidence": "verified"
+  },
+  "118": {
+    "name": "Düğmeler kilitli",
+    "transcript": "Düğmeler kilitli. Kilidi açmak için dok düğmesini basılı tutun.",
+    "confidence": "verified"
+  },
+  "126": {
+    "name": "Temizlemeye başla",
+    "transcript": "Temizlemeye başla.",
+    "confidence": "verified"
+  },
+  "127": {
+    "name": "Nokta temizlemeye başlayın",
+    "transcript": "Nokta temizliğini başlat.",
+    "confidence": "verified"
+  },
+  "128": {
+    "name": "Nokta silmeye başla",
+    "transcript": "Nokta Silme'ye başla.",
+    "confidence": "verified"
+  },
+  "129": {
+    "name": "Planlanmış temizliği başlat",
+    "transcript": "Zamanlanmış temizliği başlat.",
+    "confidence": "verified"
+  },
+  "130": {
+    "name": "Planlanmış paspaslamayı başlat",
+    "transcript": "Planlı paspaslamayı başlat.",
+    "confidence": "verified"
+  },
+  "133": {
+    "name": "Seçilen oda temizliğini başlat",
+    "transcript": "Seçilen Oda temizleyini başlat.",
+    "confidence": "verified"
+  },
+  "134": {
+    "name": "Seçilen odayı silmeye başla",
+    "transcript": "Seçilen odayı silmeye başla.",
+    "confidence": "verified"
+  },
+  "135": {
+    "name": "Bölgeli temizliği başlat",
+    "transcript": "Bölgesel temizliği başlat.",
+    "confidence": "verified"
+  },
+  "136": {
+    "name": "Bölgeli paspaslamayı başlat",
+    "transcript": "Bölgeli paspaslamayı başlat.",
+    "confidence": "verified"
+  },
+  "137": {
+    "name": "Temizlemeye devam et",
+    "transcript": "Temizleyi Devam et!",
+    "confidence": "verified"
+  },
+  "138": {
+    "name": "Paspaslamaya devam et",
+    "transcript": "Paspaslım'ı devam et.",
+    "confidence": "verified"
+  },
+  "139": {
+    "name": "Kendi kendini temizlemek için üsse dönmeye devam edin",
+    "transcript": "Dönüyoruz.",
+    "confidence": "verified"
+  },
+  "140": {
+    "name": "Yeni ortam algılandı",
+    "transcript": "Kendi kendini yıkayan tabana geri dönen yeni ortam algılanır.",
+    "confidence": "verified"
+  },
+  "142": {
+    "name": "Paspas pedi aşınmış",
+    "transcript": "Paspas pedi aşılmış. Lütfen zamanında değiştirin.",
+    "confidence": "verified"
+  },
+  "143": {
+    "name": "Temizleme tamamlandı",
+    "transcript": "Temizlik tamamlandı.",
+    "confidence": "verified"
+  },
+  "144": {
+    "name": "Paspaslama tamamlandı",
+    "transcript": "Silme tamamlandı.",
+    "confidence": "verified"
+  },
+  "145": {
+    "name": "Konum bulundu: temizliğe devam",
+    "transcript": "Bununlandırma başarılı.Temizlemeye devam edin.",
+    "confidence": "verified"
+  },
+  "146": {
+    "name": "Konum bulundu: paspaslamaya devam",
+    "transcript": "Konumlandırma başarılı. Paspaslamaya devam edin.",
+    "confidence": "verified"
+  },
+  "148": {
+    "name": "Kendi kendini temizlemek için üsse dönün",
+    "transcript": "Kendi kendini temizleme için üste dönün.",
+    "confidence": "verified"
+  },
+  "149": {
+    "name": "Hedefe ulaşılamıyor: yolda engel",
+    "transcript": "Belirtilen alana ulaşılamıyor. Lütfen yoldaki engelleri temizlemeye çalışın.",
+    "confidence": "verified"
+  },
+  "150": {
+    "name": "Hedefe ulaşılamıyor: girilemez bölge",
+    "transcript": "Belirtilen alana ulaşılamıyor. Lütfen yoldaki hareket etmeyen bölgeleri silmeyi deneyin.",
+    "confidence": "verified"
+  },
+  "151": {
+    "name": "Yol engelli: çevrede fiziksel engel",
+    "transcript": "Yol engellendi. Lütfen süpürgenizin etrafındaki engelleri temizlemeye çalışın.",
+    "confidence": "verified"
+  },
+  "152": {
+    "name": "Yol engelli: girilemez bölge",
+    "transcript": "Yol engellendi. Lütfen hareket etmeyen bölgeleri silmeye çalışın veya süpürgenizi bu alanın dışına çıkarın.",
+    "confidence": "verified"
+  },
+  "153": {
+    "name": "Robotunuz girilmez bölgede algılandı",
+    "transcript": "Süpürgeniz hareket etmeyen bölgede algılandı. Lütfen süpürgenizi bu alandan uzaklaştırın.",
+    "confidence": "verified"
+  },
+  "156": {
+    "name": "Paspas tepsisi kaldırıldı",
+    "transcript": "Paspas pedi tepsisi takılı değil.",
+    "confidence": "verified"
+  },
+  "162": {
+    "name": "Kamera açık",
+    "transcript": "Kamera açık.",
+    "confidence": "verified"
+  },
+  "163": {
+    "name": "Kamera izleme",
+    "transcript": "KAMERA İZLEME",
+    "confidence": "verified"
+  },
+  "164": {
+    "name": "Görev biter",
+    "transcript": "Görev biter.",
+    "confidence": "verified"
+  },
+  "166": {
+    "name": "Lütfen paspas bezine dolaşmış yabancı cisimleri temizleyin",
+    "transcript": "Paspas pedine dolanmış yabancı cisimleri lütfen temizleyiniz.",
+    "confidence": "verified"
+  },
+  "169": {
+    "name": "Paspas kurutma işlemi tamamlandı",
+    "transcript": "Paspas pedi kurutma tamamlandı.",
+    "confidence": "verified"
+  },
+  "171": {
+    "name": "AI tanıma işlevi açık",
+    "transcript": "Akıllı engelden kaçınma işlevi açık.",
+    "confidence": "verified"
+  },
+  "172": {
+    "name": "AI tanıma işlevi kapalı",
+    "transcript": "Akıllı engelden kaçınma işlevi kapalı.",
+    "confidence": "verified"
+  },
+  "173": {
+    "name": "Lütfen Gümüş İyon sterilizatörünü değiştirin",
+    "transcript": "Lütfen Gümüş Yiyon siterelizatörünü değiştirin.",
+    "confidence": "verified"
+  },
+  "177": {
+    "name": "Istasyonndan ayrılma",
+    "transcript": "Ana İstasyon'dan ayrılıyor.",
+    "confidence": "verified"
+  },
+  "179": {
+    "name": "Paspas temizlendi",
+    "transcript": "Paspas temizlendi. Temiz su tankındaki su yetersiz. Lütfen temiz su tankını doldurun ve kullanılmış su tankını boşaltın.",
+    "confidence": "verified"
+  },
+  "181": {
+    "name": "Yetersiz su",
+    "transcript": "Getersiz su. Lütfen temiz su deposunu doldurunuz.",
+    "confidence": "verified"
+  },
+  "186": {
+    "name": "Lütfen taze tankı kontrol edin",
+    "transcript": "Lütfen temiz tankı kontrol edin.",
+    "confidence": "verified"
+  },
+  "187": {
+    "name": "Yaklaşık 5 ila 10 dakika sürecek",
+    "transcript": "Yaklaşık 5 ile 10 dakika sürecektir.",
+    "confidence": "verified"
+  },
+  "188": {
+    "name": "Otomatik yerleştirme devrede",
+    "transcript": "Otomatik yerleştirme devreye alındı.",
+    "confidence": "verified"
+  },
+  "200": {
+    "name": "Kapanış melodisi",
+    "transcript": "[Kapanış melodisi]",
+    "confidence": "verified"
+  },
+  "244": {
+    "name": "Deterjan şişesi takıldı",
+    "transcript": "Deterjan şişesi takılı.",
+    "confidence": "verified"
+  },
+  "255": {
+    "name": "Akıllı engelden kaçınma gerekli",
+    "transcript": "Üzgünüz, bu görev yalnızca akıllı engelden kaçınma etkinleştirildiğinde gerçekleştirilebilir.",
+    "confidence": "asr"
+  },
+  "257": {
+    "name": "Kamera izlemeden çıkıldı",
+    "transcript": "Kamera izlemeden çıkıldı.",
+    "confidence": "verified"
+  },
+  "258": {
+    "name": "Dolaşım başladı",
+    "transcript": "Kendinden konundandırılmış dolaşım başladı.",
+    "confidence": "verified"
+  },
+  "259": {
+    "name": "Hedef konuma ilerleniyor",
+    "transcript": "Kendi kendine konumlandırılmış. Belirlenen konuma ilerleyin.",
+    "confidence": "verified"
+  },
+  "260": {
+    "name": "Dolaşım devam ediyor",
+    "transcript": "Kendi kendine konumlandırılmış dolaşım devam etti.",
+    "confidence": "verified"
+  },
+  "261": {
+    "name": "Hedef konuma ilerlemeye devam",
+    "transcript": "Kendi kendine konumdandırılmış, belirlenen konuma ilerlemeye devam edin.",
+    "confidence": "verified"
+  },
+  "262": {
+    "name": "Kendini konumlandırma başarısız oldu",
+    "transcript": "Kendi kendine konumlandırma başarısız oldu.",
+    "confidence": "verified"
+  },
+  "266": {
+    "name": "Lütfen deterjanı değiştirin",
+    "transcript": "Lütfen deterjanı değiştirin.",
+    "confidence": "verified"
+  },
+  "267": {
+    "name": "Lütfen sensörleri temizleyin",
+    "transcript": "Lütfen sensörleri temizleyin.",
+    "confidence": "verified"
+  },
+  "269": {
+    "name": "Lütfen mevcut görev tamamlandıktan sonra tekrar deneyin",
+    "transcript": "Lütfen mevcut görev tamamlandıktan sonra tekrar deneyin.",
+    "confidence": "asr"
+  },
+  "274": {
+    "name": "Bildirim sesi",
+    "transcript": "[Bildirim sesi]",
+    "confidence": "verified"
+  },
+  "280": {
+    "name": "Özel temizlemeye başlayın",
+    "transcript": "Özel temizliği başlat.",
+    "confidence": "verified"
+  },
+  "281": {
+    "name": "Robot otomatik olarak boşaltılıyor",
+    "transcript": "Robot süpürge otomatik olarak temizlenir. Lütfen daha sonra tekrar deneyiniz.",
+    "confidence": "verified"
+  },
+  "282": {
+    "name": "Robot paspas pedini temizliyor",
+    "transcript": "Robot süpürge, paspas pedini temizliyor. Lütfen daha sonra tekrar deneyiniz.",
+    "confidence": "verified"
+  },
+  "283": {
+    "name": "Robot istasyonnda değil",
+    "transcript": "Robot süpürge ana istasyon da değil. Lütfen daha sonra tekrar deneyiniz.",
+    "confidence": "verified"
+  },
+  "293": {
+    "name": "Arama etkin",
+    "transcript": "Arama etkinleştirildi.",
+    "confidence": "verified"
+  },
+  "294": {
+    "name": "Arama devre dışı bırakıldı",
+    "transcript": "Arama Devre Dışı",
+    "confidence": "verified"
+  },
+  "296": {
+    "name": "Kirli su haznesi hatası",
+    "transcript": "Kirli su deposu hatası. Lütfen kirli su deposunun dolu olup olmadığını kontrol edin.",
+    "confidence": "asr"
+  },
+  "297": {
+    "name": "Deterjan şişesi takıldı: sayaç sıfırlama",
+    "transcript": "Deterjan şişesi takıldı. Deterjan hiç kullanılmadıysa lütfen uygulamada sıfırlayın.",
+    "confidence": "asr"
+  },
+  "298": {
+    "name": "Çamaşır tahtası tabanını temizlemeye başlayın",
+    "transcript": "su siperi tabanını temizlemeye başla",
+    "confidence": "asr"
+  },
+  "299": {
+    "name": "Deterjan otomatik ekleme modülü takıldı",
+    "transcript": "Deterjan şişesi ve otomatik ekleme modülü takılı.",
+    "confidence": "asr"
+  },
+  "311": {
+    "name": "Paspaslar kaldırıldı",
+    "transcript": "Paspas pedleri çıkarıldı.",
+    "confidence": "asr"
+  },
+  "315": {
+    "name": "Paspas pedi istasyonda değil",
+    "transcript": "Paspas Pedibaz istasyonunda değil. Lütfen ana istasyona yerleştirdikten sonra tekrar deneyin veya manuel olarak kurun.",
+    "confidence": "asr"
+  },
+  "316": {
+    "name": "Paspas pedi zaten istasyonda",
+    "transcript": "Anı istasyon da zaten paspas pedivaş.",
+    "confidence": "asr"
+  },
+  "318": {
+    "name": "Paspas pedi temizlendi",
+    "transcript": "Mopedi temizlendi.",
+    "confidence": "asr"
+  },
+  "319": {
+    "name": "Paspas pedleri çıkarılamadı",
+    "transcript": "Paspas pedleri çıkarılamadı. Lütfen bunları manuel olarak kaldırın.",
+    "confidence": "asr"
+  },
+  "320": {
+    "name": "Paspas pedleri yüklenemedi",
+    "transcript": "Paspas pedleri kurulamadı. Lütfen bunları manuel olarak kurun.",
+    "confidence": "asr"
+  },
+  "321": {
+    "name": "Lekeleri yoğun bir şekilde temizlemeye başlayın",
+    "transcript": "Lekeler için yoğun paspaslamaya başla.",
+    "confidence": "asr"
+  },
+  "329": {
+    "name": "Kendi kendine test başladı",
+    "transcript": "Kendi kendine testi başlatın, lütfen beni ana istasyondan uzağa hareket ettirmeyin.",
+    "confidence": "asr"
+  },
+  "330": {
+    "name": "Kendi kendine test sürüyor",
+    "transcript": "Kendi kendine test tamamlandıktan sonra lütfen yeniden deneyin.",
+    "confidence": "asr"
+  },
+  "331": {
+    "name": "Kendi kendine test: hata yok",
+    "transcript": "Hatta bulunamadı, bu cihazı güvenle kullanabilirsiniz.",
+    "confidence": "asr"
+  },
+  "332": {
+    "name": "Kendi kendine test: hata bulundu",
+    "transcript": "Bir hata bulundu, ayrıntıları görüntülemek için lütfen uygulamaya gidin.",
+    "confidence": "asr"
+  },
+  "341": {
+    "name": "Seni buldum",
+    "transcript": "Seni buldum, şimdi takip etmeye başla, takibi sonlandırmak için ek sahit çık diyebilirsin.",
+    "confidence": "asr"
+  },
+  "342": {
+    "name": "Neredesin",
+    "transcript": "Neredesin? Lütfen yaklaşık 1,5 metre önümde dur.",
+    "confidence": "asr"
+  },
+  "343": {
+    "name": "Seni kaybettim",
+    "transcript": "Seni kaybettim, çok hızlı yürüyorsun, lütfen yaklaşık 1,5 metre önümde durup seni tekrar bulmamı bekle.",
+    "confidence": "asr"
+  },
+  "349": {
+    "name": "Istasyonnun açık olduğundan emin olun",
+    "transcript": "Anı istasyonun gücünün açık olduğundan emin olun. Aktivasyonu başlatmak için robotu üzerine yerleştirin.",
+    "confidence": "asr"
+  },
+  "350": {
+    "name": "Istasyon aktivasyonunu başlat",
+    "transcript": "Anı istasyon aktivasyonunu başlatın.",
+    "confidence": "asr"
+  },
+  "351": {
+    "name": "İstasyon etkinleştirildi",
+    "transcript": "Anı istasyon aktive edildi.",
+    "confidence": "asr"
+  },
+  "352": {
+    "name": "Baz İstasyonu aktivasyonu başarısız oldu",
+    "transcript": "Anı istasyon aktivasyonu başarısız oldu. Çözüme göz atmak için uygulamayı açın.",
+    "confidence": "asr"
+  },
+  "355": {
+    "name": "Su seviyesi düşük, lütfen temiz su deposunu doldurun",
+    "transcript": "Düşük su seviyesi, lütfen temiz su haznesini doldurun.",
+    "confidence": "asr"
+  },
+  "356": {
+    "name": "Arıza hala mevcut",
+    "transcript": "Arıza hala devam ediyor, programlanan görev iddial edildi.",
+    "confidence": "asr"
+  },
+  "360": {
+    "name": "Robot su deposunu boşaltıyor",
+    "transcript": "Robot su haz nesi boşaltma",
+    "confidence": "asr"
+  },
+  "361": {
+    "name": "Robot su deposu drenajı tamamlandı",
+    "transcript": "Robot su haznesi boşaltma işlemi tamamlandı.",
+    "confidence": "asr"
+  },
+  "362": {
+    "name": "Paspas yerinde değil: yalnız süpürme",
+    "transcript": "Paspas pedi yerinden çıkmış, robot bunun yerine süpürme görevini yapacaktır.",
+    "confidence": "asr"
+  },
+  "363": {
+    "name": "Süpürme görevi tamamlandı, robot silmeye başlayacak",
+    "transcript": "Süpürme görevi tamamlandı. Robot pas paslama işlemine başlayacaktır.",
+    "confidence": "asr"
+  },
+  "364": {
+    "name": "Video etkinleştirme kodunu ayarlamaya başlayın",
+    "transcript": "Videoyaktivasyon kodunu ayarlamaya bahu ola",
+    "confidence": "asr"
+  },
+  "365": {
+    "name": "Canlı video işlevi devre dışı bırakıldı",
+    "transcript": "Cehanele mu video iho levi devrede muho mu be mu rak mu le de mu?",
+    "confidence": "asr"
+  },
+  "371": {
+    "name": "Lütfen çamaşır tahtasını çıkarın",
+    "transcript": "Lütfen su siperini çıkarın.",
+    "confidence": "asr"
+  },
+  "372": {
+    "name": "Temiz su dışarı akmaya başlar",
+    "transcript": "temiz su akmaya başlar",
+    "confidence": "asr"
+  },
+  "373": {
+    "name": "Temiz su çıkış işlemi sona erdi",
+    "transcript": "Temiz su akışı süreci sona erdi. Lütfen 10 saniye bekleyin ve ardından kirleri ıslandıktan sonra ana istasyonu temizleyin.",
+    "confidence": "asr"
+  },
+  "374": {
+    "name": "İstasyon tabanını temizle",
+    "transcript": "Lütfen bir fırça veya bes kullanarak ana istasyonun altını 20 saniye içinde temizleyin. Ardından atıksı otomatik olarak dışarıya pompalanır.",
+    "confidence": "asr"
+  },
+  "375": {
+    "name": "Lütfen sorunları pompa sahasına itin",
+    "transcript": "Lütfen kirleri pompalama ağzına doğru itin, pompalama işlemi 30 saniye sürer.",
+    "confidence": "asr"
+  },
+  "376": {
+    "name": "Pompalama tamamlandı",
+    "transcript": "Pompalama işlemi sona erdi. Lütfen su siperini ayrıca temizleyin ve geri takın.",
+    "confidence": "asr"
+  },
+  "377": {
+    "name": "Ağ yapılandırılamıyor",
+    "transcript": "A. Yapılandırılamıyor. Lütfen müşteri hizmetleriyle iletişime geçin.",
+    "confidence": "asr"
+  },
+  "378": {
+    "name": "Wi-Fi şifresi yanlış",
+    "transcript": "Yanlış şifre, ağa bağlanamıyor. Lütfen yeniden yapılandırın.",
+    "confidence": "asr"
+  },
+  "379": {
+    "name": "Kablosuz ağ bulunamadı, lütfen 2'ye bağlanın",
+    "transcript": "Kablosuz A bulunamadı. Lütfen 2.4GHz kablosuz internet bandına bağlanın. Robotu yönlendiriciye yakın bir konuma yerleştirdikten sonra tekrar deneyin.",
+    "confidence": "asr"
+  },
+  "380": {
+    "name": "IP adresi alınamadı",
+    "transcript": "IP adresi alınamadı, lütfen yönlendirici ayarlarını kontrol edin.",
+    "confidence": "asr"
+  },
+  "381": {
+    "name": "EMQ sunucusuna bağlanılamadı",
+    "transcript": "EMQ sunucusuna bağlanamıyor. Lütfen müşteri hizmetleriyle iletişime geçin.",
+    "confidence": "asr"
+  },
+  "382": {
+    "name": "Ağa bağlanılamadı",
+    "transcript": "A bağlanamıyor. Lütfen A'ın normal çalışıp çalışmadığını kontrol edin.",
+    "confidence": "asr"
+  },
+  "383": {
+    "name": "Ağ yapılandırılamıyor",
+    "transcript": "A. Yapılandırılamıyor. Lütfen müşteri hizmetleriyle iletişime geçin.",
+    "confidence": "asr"
+  },
+  "384": {
+    "name": "Otomatik su sisteminde temiz su yok",
+    "transcript": "Otomatik su beslemenin temiz su haznesinde ve tahliye aygıtında su yok.",
+    "confidence": "asr"
+  },
+  "385": {
+    "name": "Ağa bağlanmaya başlayın",
+    "transcript": "A bağlanmaya başla",
+    "confidence": "asr"
+  },
+  "388": {
+    "name": "Robot kısıtlı alanda",
+    "transcript": "Gizli alan, lütfen robotu uygun alana götürün ve tekrar deneyin.",
+    "confidence": "asr"
+  },
+  "389": {
+    "name": "LDS inmeyi başaramadı",
+    "transcript": "Ley Mese'yi indirilemiyor. Lütfen takılıp takılmadığını kontrol edin.",
+    "confidence": "asr"
+  },
+  "390": {
+    "name": "LDS kaldırılamadı",
+    "transcript": "Leymeyse kaldırılamıyor. Lütfen takılıp takılmadığını kontrol edin.",
+    "confidence": "asr"
+  },
+  "391": {
+    "name": "Görev için açık alana yerleştir",
+    "transcript": "Lütfen görevi başlatmadan önce beni açık bir alana götürün.",
+    "confidence": "asr"
+  },
+  "396": {
+    "name": "Su modülü boşaltılıyor",
+    "transcript": "3 dakika sürmesi beklenen su temini ve drainage modülünü boşaltmaya başlayın.",
+    "confidence": "asr"
+  },
+  "397": {
+    "name": "Üst ve alt su drenajı tamamlandı",
+    "transcript": "Üst ve alt soğudırınacı tamamlandı.",
+    "confidence": "asr"
+  },
+  "398": {
+    "name": "Haritalama tamamlandı: istasyona götür",
+    "transcript": "Haritalandırma tamamlandı. Haritayı uygulamada kontrol edin ve beni yanaşma noktasına götürün.",
+    "confidence": "asr"
+  },
+  "399": {
+    "name": "Test tamamlandı, lütfen beni istasyona geri götürün",
+    "transcript": "Görev tamamlandı. Lütfen beni yanaşma noktasına geri götürün.",
+    "confidence": "asr"
+  },
+  "400": {
+    "name": "İstasyon temizliği tamamlandı",
+    "transcript": "Pember Sihansı Enderi Sele Sayı, Sekerang Pindakyan Host Kelantay Yanseswayı'dan klik tonbol eve yıl untuk Terus Bekerce.",
+    "confidence": "asr"
+  },
+  "401": {
+    "name": "Kendi kendini temizleme için istasyon",
+    "transcript": "Lütfen beni yanaşma noktasına götürün ve kendini temizleme görevini başlatın.",
+    "confidence": "asr"
+  },
+  "424": {
+    "name": "Konumlandırma başarısız",
+    "transcript": "Konumlandırma yapılamadı, lütfen beni açık bir alana götürün ve görevi yeniden başlatın.",
+    "confidence": "asr"
+  },
+  "426": {
+    "name": "Kaydım ve sıkışıp kaldım",
+    "transcript": "Kaydım ve takıldım, serbest kalmaya çalışmaya devam edeceğim.",
+    "confidence": "asr"
+  },
+  "433": {
+    "name": "Ekstra temizlemeye başlayın",
+    "transcript": "Ekstra temizliği başlat.",
+    "confidence": "asr"
+  },
+  "434": {
+    "name": "Ekstra temizlik tamamlandı",
+    "transcript": "Ekstra temizlik tamamlandı, orijinal temizlik devam ediyor.",
+    "confidence": "asr"
+  },
+  "435": {
+    "name": "Mevcut alanı terk etmek",
+    "transcript": "geçerli alandan ayrılıyor",
+    "confidence": "asr"
+  },
+  "436": {
+    "name": "Uyarı sesi",
+    "transcript": "[Uyarı sesi]",
+    "confidence": "asr"
+  },
+  "437": {
+    "name": "Sorun çözüldü: temizliğe devam",
+    "transcript": "Sorun çözüldü, temizliğe devam etmek için başlat düğmesine dokunun.",
+    "confidence": "asr"
+  },
+  "438": {
+    "name": "Tampon sıkışmış",
+    "transcript": "Tampon sıkıştı. Normal bir şekilde geris ekmesini sağlamak için lütfen tampona hafif bir şekilde dokunun.",
+    "confidence": "asr"
+  },
+  "439": {
+    "name": "LDS kapağı sıkıştı",
+    "transcript": "LMS kapağı sıkıştı, normal bir şekilde geris ekmesini sağlamak için lütfen esnek alanına hafif bir şekilde dokunun.",
+    "confidence": "asr"
+  },
+  "440": {
+    "name": "Tekerlekler havada",
+    "transcript": "Robot süpürgenin tekerlekleri asılı kaldı, lütfen açık bir alana götürün ve görevi yeniden başlatın.",
+    "confidence": "asr"
+  },
+  "441": {
+    "name": "Ana fırça dolaşmış",
+    "transcript": "Ana fırçaya bir şeyler dolaştı, lütfen yeniden takmadan önce çıkarıp temizleyin.",
+    "confidence": "asr"
+  },
+  "442": {
+    "name": "Yan fırça dolaşmış",
+    "transcript": "Yan fırçaya bir şeyler dolaştı, lütfen yeniden takmadan önce çıkarıp temizleyin.",
+    "confidence": "asr"
+  },
+  "443": {
+    "name": "Ana tekerlekler birbirine dolanmış, lütfen temizleyin",
+    "transcript": "ana tekerleklere bir şeyler dolaştı, lütfen temizleyin.",
+    "confidence": "asr"
+  },
+  "444": {
+    "name": "Robotu açık alana yerleştir",
+    "transcript": "Lütfen görevi başlatmadan önce robotu açık bir alana götürün.",
+    "confidence": "asr"
+  },
+  "445": {
+    "name": "Paspas düştü",
+    "transcript": "Paspas düştü, lütfen robotun çevresini kontrol edip paspası bulun ve yerine takın.",
+    "confidence": "asr"
+  },
+  "446": {
+    "name": "Paspas tutucusu dolaşmış, lütfen çıkarın ve temizleyin",
+    "transcript": "Paspas tutucusuna bir şeyler dolaştı, lütfen çıkarıp temizleyin.",
+    "confidence": "asr"
+  },
+  "447": {
+    "name": "İstasyonun gücü kapalı",
+    "transcript": "İstasyonun gücü açık değil, lütfen kontrol edin ve robotu tekrar şarja koyun.",
+    "confidence": "asr"
+  },
+  "448": {
+    "name": "Kirli su haznesi takılı değil",
+    "transcript": "Kullanılmış sovaz nesi takılı değil, lütfen görevi başlatmadan önce yerine yerleştirin.",
+    "confidence": "asr"
+  },
+  "449": {
+    "name": "Halı üzerinde görev başlatılamıyor",
+    "transcript": "Halılar üzerinde görev başlatılamıyor. Lütfen robotu sert semine götürüp görevi yeniden başlatın.",
+    "confidence": "asr"
+  },
+  "450": {
+    "name": "Girilemez bölgede görev başlatılamıyor",
+    "transcript": "Yasak bölgede görev başlatılamıyor. Lütfen robotu diğer alanlara götürüp görevi yeniden başlatın.",
+    "confidence": "asr"
+  },
+  "451": {
+    "name": "Gizli alanda görev başlatılamıyor",
+    "transcript": "Gizli alanda görevler başlatılamıyor. Lütfen robotu diğer alanlara götürüp görevi yeniden başlatın.",
+    "confidence": "asr"
+  },
+  "452": {
+    "name": "Halı sensörü hatası",
+    "transcript": "Halı sensörü hatası, lütfen robotu ters çevirin, alttaki beyaz yuvarlak deliği silin ve robotu yeniden başlatın.",
+    "confidence": "asr"
+  },
+  "453": {
+    "name": "Kenar sensörü hatası",
+    "transcript": "Kenar sensörü hatası, lütfen robotun sağ tarafını silin ve görevi yeniden başlatın.",
+    "confidence": "asr"
+  },
+  "454": {
+    "name": "Temiz su yetersiz",
+    "transcript": "Temiz su haznesinde yetersiz su var. Lütfen gecikmeden temiz suyla doldurun.",
+    "confidence": "asr"
+  },
+  "455": {
+    "name": "Temiz su deposu doğru yerde değil",
+    "transcript": "Temiz sohaz nesi doğru yerde değil. Lütfen yerine takın.",
+    "confidence": "asr"
+  },
+  "456": {
+    "name": "Kirli su haznesi dolu / takılı değil",
+    "transcript": "Kullanılmış sohaz nesi dolu veya takılı değil, lütfen kontrol edin.",
+    "confidence": "asr"
+  },
+  "457": {
+    "name": "Kirli su haznesi dolu / takılı değil",
+    "transcript": "Kullanılmış sohaz nesi dolu veya takılı değil, lütfen kontrol edin.",
+    "confidence": "asr"
+  },
+  "458": {
+    "name": "Toz torbası doğru yerde değil, lütfen kontrol edip takın",
+    "transcript": "Toast torbası doğru yerde değil, lütfen kontrol edin ve takın.",
+    "confidence": "asr"
+  },
+  "459": {
+    "name": "Paspas tutucusu yanlış konumda",
+    "transcript": "Paspas tutucusu doğru yerde değil, lütfen kontrol edin ve takın.",
+    "confidence": "asr"
+  },
+  "460": {
+    "name": "Koku giderici aşınmış",
+    "transcript": "Kullanılmış sohaznesi koku giderici aşınmış, lütfen gecikmeden değiştirin.",
+    "confidence": "asr"
+  },
+  "463": {
+    "name": "Dream Robot'u kullanmaya hoş geldiniz",
+    "transcript": "Dream Robot Süpürge'ye hoş geldiniz. Daha fazla işlem görüntülemek için lütfen Robot Süpürgenin kapağını açıp köar kodunu taratın ve Dream Home uygulamasını indirin.",
+    "confidence": "asr"
+  },
+  "464": {
+    "name": "Görev öncesi istasyona yerleştirme",
+    "transcript": "Sonraki görevleri sorunsuz bir şekilde tamamlamak için, görevleri başlatmadan önce robotu istasyona geri yerleştirin. Çarcı başlat komutu duyulduğunda, kurulum yapılmış demektir.",
+    "confidence": "asr"
+  },
+  "465": {
+    "name": "Görev öncesi istasyona yerleştirme",
+    "transcript": "Görevleri başlatmadan önce robotu istasyona geri yerleştirin. Şarjı başlat, komutu duyulduğunda, kurulum yapılmış demektir.",
+    "confidence": "asr"
+  },
+  "466": {
+    "name": "Temizlik öncesi oda hazırlığı",
+    "transcript": "Lütfen temizlenecek odaların kapılarını açın ve yerdeki eşyaları toplayın.",
+    "confidence": "asr"
+  },
+  "467": {
+    "name": "Haritalama öncesi istasyona yerleştir",
+    "transcript": "Lütfen robotu istasyona geri yerleştirin ve ardından harita oluşturma işlemini tekrar başlatın.",
+    "confidence": "asr"
+  },
+  "468": {
+    "name": "Lütfen uygulamadaki harita ayrıntılarını onaylayın",
+    "transcript": "Lütfen uygulamadaki harita ayrıntılarını onaylayın.",
+    "confidence": "asr"
+  },
+  "478": {
+    "name": "Paspas yıkama sonrası devam",
+    "transcript": "Paspas yıkama işlemini tamamladıktan sonra, robot temizlik görevine kaldığı yerden devam eder.",
+    "confidence": "asr"
+  },
+  "479": {
+    "name": "Görevi yeniden başlat",
+    "transcript": "Tamamen hazır, görevinizi yeniden başlatın.",
+    "confidence": "asr"
+  },
+  "480": {
+    "name": "Sonraki görev için su ekle",
+    "transcript": "Sonraki görevler için temiz su haznesine yeterli su koyun.",
+    "confidence": "asr"
+  },
+  "488": {
+    "name": "Bildirim sesi",
+    "transcript": "[Bildirim sesi]",
+    "confidence": "asr"
+  },
+  "516": {
+    "name": "Evcil hayvan bulmaya başlayın",
+    "transcript": "evcil hayvanları bulmaya başla",
+    "confidence": "asr"
+  },
+  "517": {
+    "name": "Evcil hayvan bulundu",
+    "transcript": "Evcil hayvanlarınızı başarılı bir şekilde bulun, sarıc için geri dönmeye başla.",
+    "confidence": "asr"
+  },
+  "518": {
+    "name": "Evcil hayvan bulunamadı, şarja geri dönmeye başlayın",
+    "transcript": "Evcil hayvan bulunamadı, Serj için geri dönmeye başla.",
+    "confidence": "asr"
+  },
+  "632": {
+    "name": "Dil değiştiriliyor",
+    "transcript": "Diller değiştiriliyor, işlem yaklaşık 30 saniye sürecektir.",
+    "confidence": "asr"
+  },
+  "636": {
+    "name": "Kirli paspası otomatik yıka",
+    "transcript": "Paspas kirli, otomatik paspas yıkama için lütfen robotu yanaşma noktasına götürün.",
+    "confidence": "asr"
+  },
+  "638": {
+    "name": "Otomatik boşaltmaya devam ediliyor",
+    "transcript": "Otomatik boşaltma tekrar başlatılıyor.",
+    "confidence": "asr"
+  },
+  "639": {
+    "name": "Lütfen çamaşır tahtası filtresini takın",
+    "transcript": "Lütfen su siperi filtresini takın.",
+    "confidence": "asr"
+  },
+  "640": {
+    "name": "Dil değiştirilemedi",
+    "transcript": "Dil değiştirilemedi. Lütfen sıfırlayın.",
+    "confidence": "asr"
+  },
+  "658": {
+    "name": "Kireç önleyici süresi doldu",
+    "transcript": "Kireç önleyicinin süresi doldu, lütfen gecikmeden değiştirin.",
+    "confidence": "asr"
+  },
+  "661": {
+    "name": "Yıkama tablası temizliği",
+    "transcript": "Su siperi tabanını temizlemeye başla, işlem yaklaşık 45 ile 60 saniye sürecektir.",
+    "confidence": "asr"
+  },
+  "662": {
+    "name": "Bunları temizlemek için elektrolize su yapmaya başlayın",
+    "transcript": "Paspası temizlemek için elektrolize su hazırlamaya başlayın.",
+    "confidence": "asr"
+  },
+  "663": {
+    "name": "Yıkama tahtasında anormal su seviyesi tespit edildi",
+    "transcript": "Su siperinde anormal su seviyesi algılandı. Lütfen su siperi filtresini ve su siperi filtresi kanalını temizleyip ardından görevi yeniden başlatın.",
+    "confidence": "asr"
+  },
+  "673": {
+    "name": "Açılır ayaklar dolaşmış",
+    "transcript": "Aralık ayaklarına bir şeyler dolaşmış olabilir. Görevleri başlatmadan önce lütfen ayakları temizleyin.",
+    "confidence": "asr"
+  },
+  "677": {
+    "name": "Hedefe ulaşılamıyor: eşik / bölge",
+    "transcript": "Belirlenen alana ulaşamıyor. Lütfen yoldaki gidilemez bölgeleri veya geçilemez eşikleri kaldırın.",
+    "confidence": "asr"
+  },
+  "678": {
+    "name": "Yol engelli: eşik / bölge",
+    "transcript": "Temizlik yolu engellenmiş, lütfen haritadaki gidilemez bölgeleri veya geçilemez eşikleri kaldırın veya robotu alanın dışına çıkarın.",
+    "confidence": "asr"
+  },
+  "679": {
+    "name": "Robot eşik / girilemez bölgede",
+    "transcript": "Robot süpürge girilemez bölgede veya geçilemez eşik alanında engellenmiş. Lütfen robot süpürgeyi alanın dışına çıkarın.",
+    "confidence": "asr"
+  },
+  "681": {
+    "name": "Tamam, temizlemeye devam edeceğim",
+    "transcript": "Tamam, temizliğe devam edeceğim.",
+    "confidence": "asr"
+  }
+}
+
