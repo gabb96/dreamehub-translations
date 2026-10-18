@@ -30,7 +30,7 @@ Robotunu kontrol et, haritasını keşfet, gördüğü nesneleri incele. Hepsi m
 
 ## Dreame Hub ile tanış
 
-https://github.com/user-attachments/assets/c0216a06-294b-4b40-84a7-342442fc6f57
+https://github.com/user-attachments/assets/34265f51-2408-4933-bf6e-4cab9219fc7f
 
 Tanıtımda gerçek arayüz ve kayıtlı harita kullanılır. Robot hareketi çekim için simüle edilmiştir.
 

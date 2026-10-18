@@ -30,7 +30,7 @@ Control your robot, explore its map and see what it found — from a compact mac
 
 ## Meet Dreame Hub
 
-https://github.com/user-attachments/assets/c0216a06-294b-4b40-84a7-342442fc6f57
+https://github.com/user-attachments/assets/34265f51-2408-4933-bf6e-4cab9219fc7f
 
 The product film uses the actual interface and recorded map. Robot motion is simulated for the shoot.
 
