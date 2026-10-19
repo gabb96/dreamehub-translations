@@ -17,7 +17,9 @@ The implementation provides MOVA-specific cloud routing, app identity, tenant, r
 - Packed cleaning-mode encoding is limited to 78 audited identifiers and additionally requires the self-wash-base property to be reported. Unrecognized finer wetness scales cannot be overwritten with the legacy three-level water setting.
 - MOVA target navigation is **not enabled**. Existing Dreame navigation restrictions are unchanged.
 
-The public source and DMG use neutral artwork. Manufacturer product PNGs were inspected for a private build but are **not distributed** here because redistribution permission has not been verified. They are not covered by the source-code MIT license.
+Starting with v0.2.3, the source and DMG include **21 transparent manufacturer product PNGs for the 22 catalog families**, matched by exact model identifier. V50 Ultra and V50 Ultra Complete share the same robot/base image; the Complete accessory bundle is not pictured. Unknown models retain a neutral fallback. Image color represents the product family and is not detected from the robot. No AI-generated product substitutes are used; E40's official transparent WebP was converted losslessly to PNG.
+
+Artwork remains third-party material and is **not covered by the source-code MIT license**. No redistribution license, endorsement or trademark rights are asserted. Original source URLs and attribution are retained in [SOURCES.json](../Sources/DreameHub/Resources/assets/products/mova/SOURCES.json); see [third-party notices](../THIRD_PARTY_NOTICES.md).
 
 If you test a MOVA device, report the model ID, application version, account provider/region, exact error and which read-only functions worked. Do not share passwords, verification codes, tokens, private maps or object photos. [Device report](https://github.com/retoucheroz/dreamehub/issues/new?template=device-report.yml).
 
@@ -36,7 +38,9 @@ MOVA için ayrı bulut adresi, uygulama kimliği, tenant, istek imzası ve oturu
 - Birleşik temizlik modu kodlaması incelenmiş 78 kimlikle sınırlıdır; ayrıca cihazın yıkama istasyonu özelliğini bildirmesi gerekir. Tanınmayan hassas ıslaklık ölçeği eski üç seviyeli su ayarıyla ezilmez.
 - MOVA için hedefe gitme **açık değildir**. Dreame'in mevcut hedefe gitme sınırları değişmedi.
 
-Herkese açık kaynak ve DMG nötr görseller kullanır. Özel derlemede incelenen üretici PNG'leri yeniden dağıtım izni doğrulanmadığı için **bu yayına dahil değildir** ve kodun MIT lisansı kapsamında sayılmaz.
+v0.2.3'ten itibaren kaynak ve DMG, tam model kimliğiyle eşleştirilen **22 katalog ailesi için 21 şeffaf üretici ürün PNG'sini içerir**. V50 Ultra ve V50 Ultra Complete aynı robot/istasyon görselini kullanır; Complete aksesuar paketi gösterilmez. Bilinmeyen modellerde nötr görsel korunur. Görsel rengi model ailesini temsil eder, robottan algılanmaz. AI ile üretilmiş benzer ürünler kullanılmaz; E40'ın resmî şeffaf WebP'si kayıpsız olarak PNG'ye dönüştürülmüştür.
+
+Görseller üçüncü taraf materyalidir ve **kodun MIT lisansı kapsamında değildir**. Yeniden dağıtım lisansı, marka hakkı veya üretici onayı iddia edilmez. Asıl kaynak URL'leri ve atıflar [SOURCES.json](../Sources/DreameHub/Resources/assets/products/mova/SOURCES.json) içinde korunur; [üçüncü taraf bildirimleri](../THIRD_PARTY_NOTICES.md).
 
 MOVA cihazınızı denerseniz model kimliği, uygulama sürümü, hesap sağlayıcısı/bölgesi, tam hata ve çalışan yalnız-okuma işlevlerini bildirin. Parola, doğrulama kodu, token, özel ev haritası veya nesne fotoğrafı paylaşmayın. [Cihaz raporu](https://github.com/retoucheroz/dreamehub/issues/new?template=device-report.yml).
 

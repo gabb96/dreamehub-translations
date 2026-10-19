@@ -9,7 +9,7 @@ public enum ProductCatalog {
         public let modelIDs: [String]
         fileprivate init(_ name: String, _ image: String, _ ids: [String]) {
             self.name = "MOVA " + name
-            self.imagePath = "/assets/products/generic.svg" // Public distribution: neutral, original artwork.
+            self.imagePath = "/assets/products/mova/" + image + ".png"
             self.modelIDs = ids
         }
     }

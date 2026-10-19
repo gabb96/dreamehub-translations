@@ -45,11 +45,17 @@ actor AppAPI {
             } else { boot = ["busy":false,"stage":"login_required","error":""] }
         } catch { boot = ["busy":false,"stage":"login_required","error":error.localizedDescription] }
     }
+    static func productImagePath(model:String) -> String {
+        guard let product = ProductCatalog.lookup(model:model),
+              FileManager.default.fileExists(atPath:ResourcePaths.root.appendingPathComponent(String(product.imagePath.dropFirst())).path) else {
+            return "/assets/products/generic.svg"
+        }
+        return product.imagePath
+    }
     private func state() async -> [String:Any] {
         var result = await service.publicState()
         if var device = result["device"] as? [String:Any] {
-            // Public build uses neutral artwork; no manufacturer product PNGs.
-            device["image_url"] = "/assets/products/generic.svg"
+            device["image_url"] = Self.productImagePath(model:device["model"] as? String ?? "")
             var supports = device["supports"] as? [String:Bool] ?? [:]
             supports["map"] = true // Map tab must remain available to report loading/fetch failures.
             supports["go_to"] = !readOnly && mapReady && GoToController.supports(model:device["model"] as? String ?? "")

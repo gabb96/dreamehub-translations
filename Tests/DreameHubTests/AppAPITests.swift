@@ -2,6 +2,11 @@ import XCTest
 @testable import DreameHub
 
 final class AppAPITests:XCTestCase {
+    func testKnownMovaImageReachesPresentationAndUnknownKeepsFallback() {
+        XCTAssertEqual(AppAPI.productImagePath(model:"mova.vacuum.r2475a"),"/assets/products/mova/p50-pro-ultra.png")
+        XCTAssertEqual(AppAPI.productImagePath(model:"mova.vacuum.r2582h"),"/assets/products/mova/v50-ultra.png")
+        XCTAssertEqual(AppAPI.productImagePath(model:"mova.vacuum.unknown"),"/assets/products/generic.svg")
+    }
     func testInvalidAccountRejectedBeforeNetwork() async {
         let api = AppAPI(readOnly:true)
         let result = await api.response(path:"/api/login",method:"POST",body:["account":"unknown","username":"test","password":"fixture"],binary:nil)

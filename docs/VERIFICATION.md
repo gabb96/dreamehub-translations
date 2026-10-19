@@ -66,6 +66,10 @@ Point navigation is owner-confirmed working in the previous application. The Swi
 - Native codec/product-artwork redistribution rights, source notices, signing/notarization and broader model compatibility require separate release review.
 - Existing launch ZIPs, DMG and videos are legacy Python-era artifacts. Correcting their adjacent Markdown does not rewrite their archived contents or make them Swift evidence.
 
+## v0.2.3 product artwork checks — 2026-10-19
+
+63 Swift tests and three JavaScript regression suites passed. All 21 PNGs decode with transparency, map to the 22 catalog families and are reachable through the application presentation path. Unknown models retain the neutral fallback. The actual interface was checked at 720×540 with an offline MOVA V50 fixture: its 896×897 PNG loaded in the 76×76 device header without clipping. This fixture does not establish live MOVA account/device compatibility. Manufacturer artwork is included with source attribution and is excluded from the code's MIT license; the v0.2.2 artwork exclusion below is historical.
+
 ## v0.2.2 public release checks — 2026-10-19
 
 61 Swift tests passed (0 failures), plus MapPresentationTests.js, MapRefreshTests.js and RobotMotionTests.js. These are offline regression tests, not MOVA account/device validation. Manufacturer PNGs and the private codec binary are excluded from the public package; neutral original SVG artwork is included. Older private-build observations above are historical and do not describe bundled public-release assets.

@@ -1,0 +1,114 @@
+{
+  "retrieved": "2026-10-19",
+  "owner": "MOVA / respective rights holders",
+  "license": "Manufacturer product imagery, copyright MOVA / respective rights holders. Included for model identification; not covered by the application's MIT license. No additional reuse or redistribution rights are granted or asserted.",
+  "catalogSource": "https://dreame-vacuum.tasshack.com/guide/more/supported-devices#mova",
+  "officialSource": "https://www.mova.tech/products.json?limit=250",
+  "images": [
+    {
+      "asset": "e20-plus.png",
+      "source": "https://www.mova.tech/cdn/shop/files/new-nav-E20_Plus_White.png",
+      "transformation": "None; original PNG"
+    },
+    {
+      "asset": "e30-ultra.png",
+      "source": "https://www.mova.tech/cdn/shop/files/new-nav-E30_Ultra.png",
+      "transformation": "None; original PNG"
+    },
+    {
+      "asset": "e40-ultra.png",
+      "source": "https://www.mova.tech/cdn/shop/files/Mova_E40_Ultra-Total-1.webp",
+      "transformation": "Lossless WebP to PNG with sips; alpha preserved"
+    },
+    {
+      "asset": "e50-pro-ultra.png",
+      "source": "https://www.mova.tech/cdn/shop/files/e50pu-white-product-1.png",
+      "transformation": "None; original PNG"
+    },
+    {
+      "asset": "e50-ultra.png",
+      "source": "https://www.mova.tech/cdn/shop/files/e50u-black-product-630-1.png",
+      "transformation": "None; original PNG"
+    },
+    {
+      "asset": "m1.png",
+      "source": "https://www.mova.tech/cdn/shop/files/new-nav-M1.png",
+      "transformation": "None; original PNG"
+    },
+    {
+      "asset": "mobius-60.png",
+      "source": "https://www.mova.tech/cdn/shop/files/new-nav-MOBIUS_60.png",
+      "transformation": "None; original PNG"
+    },
+    {
+      "asset": "p50-pro-ultra.png",
+      "source": "https://www.mova.tech/cdn/shop/files/new-nav-P50_Pro_Ultra.png",
+      "transformation": "None; original PNG"
+    },
+    {
+      "asset": "p50-ultra.png",
+      "source": "https://www.mova.tech/cdn/shop/files/new-nav-P50_Ultra.png",
+      "transformation": "None; original PNG"
+    },
+    {
+      "asset": "p70-pro-ultra.png",
+      "source": "https://www.mova.tech/cdn/shop/files/p70pu-prodoct-07.png",
+      "transformation": "None; original PNG"
+    },
+    {
+      "asset": "s10-plus.png",
+      "source": "https://www.mova.tech/cdn/shop/files/new-nav-S10_Plus_White.png",
+      "transformation": "None; original PNG"
+    },
+    {
+      "asset": "s70-roller.png",
+      "source": "https://www.mova.tech/cdn/shop/files/nav-s70r-white-logo.png",
+      "transformation": "None; original PNG"
+    },
+    {
+      "asset": "s70-ultra-roller.png",
+      "source": "https://www.mova.tech/cdn/shop/files/nav-s70ur-black-logo.png",
+      "transformation": "None; original PNG"
+    },
+    {
+      "asset": "v50-ultra.png",
+      "source": "https://www.mova.tech/cdn/shop/files/V50_Ultra-pkg-1.png",
+      "transformation": "None; original PNG"
+    },
+    {
+      "asset": "v70-ultra-complete.png",
+      "source": "https://www.mova.tech/cdn/shop/files/v70uc-product-01.png",
+      "transformation": "None; original PNG"
+    },
+    {
+      "asset": "v70-ultra-complete-x.png",
+      "source": "https://www.mova.tech/cdn/shop/files/nav-v70x-black-en.png",
+      "transformation": "None; original PNG"
+    },
+    {
+      "asset": "v70-ultra-pure.png",
+      "source": "https://www.mova.tech/cdn/shop/files/v70up-header.png",
+      "transformation": "None; original PNG"
+    },
+    {
+      "asset": "z50-ultra.png",
+      "source": "https://www.mova.tech/cdn/shop/files/Nav_-_Robot_Vacuum_-_Z50.png",
+      "transformation": "None; original PNG"
+    },
+    {
+      "asset": "z60-ultra-roller-complete.png",
+      "source": "https://www.mova.tech/cdn/shop/files/new-nav-Z60_Ultra-Roller_Complete_Black.png",
+      "transformation": "None; original PNG"
+    },
+    {
+      "asset": "z60-ultra-roller-standalone.png",
+      "source": "https://www.mova.tech/cdn/shop/files/new-nav-Z60_Ultra-Roller-SA.png",
+      "transformation": "None; original PNG"
+    },
+    {
+      "asset": "z70-ultra-roller-complete.png",
+      "source": "https://www.mova.tech/cdn/shop/files/z70urc-slab-product-01.png",
+      "transformation": "None; original PNG"
+    }
+  ]
+}

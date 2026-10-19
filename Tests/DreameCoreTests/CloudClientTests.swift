@@ -32,7 +32,7 @@ final class CloudClientTests:XCTestCase {
         var state = await service.publicState()
         var device = try XCTUnwrap(state["device"] as? [String:Any])
         XCTAssertEqual(device["name"] as? String,"MOVA P50 Pro Ultra")
-        XCTAssertEqual(device["image_url"] as? String,"/assets/products/generic.svg")
+        XCTAssertEqual(device["image_url"] as? String,"/assets/products/mova/p50-pro-ultra.png")
         XCTAssertEqual(device["cleaning_mode"] as? Int,0)
         XCTAssertEqual(device["water"] as? Int,2)
         XCTAssertFalse(GoToController.supports(model:"mova.vacuum.r2475a"))

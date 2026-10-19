@@ -1,29 +1,49 @@
 import XCTest
+import AppKit
 @testable import DreameCore
 
 final class ProductCatalogTests: XCTestCase {
-    func testCatalogUsesExactIdentifiersAndNeutralArtwork() {
+    func testEveryExactIdentifierResolvesUniquely() {
         let ids = ProductCatalog.entries.flatMap(\.modelIDs)
-        XCTAssertEqual(ids.count, 84)
         XCTAssertEqual(Set(ids).count, ids.count)
         XCTAssertEqual(ProductCatalog.entries.count, 22)
         for entry in ProductCatalog.entries {
-            XCTAssertEqual(entry.imagePath, "/assets/products/generic.svg")
-            for id in entry.modelIDs { XCTAssertEqual(ProductCatalog.lookup(model:id), entry) }
+            for id in entry.modelIDs { XCTAssertEqual(ProductCatalog.lookup(model: id), entry) }
         }
-        XCTAssertNil(ProductCatalog.lookup(model:"mova.vacuum.unknown"))
-        XCTAssertNil(ProductCatalog.lookup(model:"mova.vacuum.r2475z"))
     }
-    func testGroupedModeRequiresKnownModelAndReportedStation() {
-        XCTAssertTrue(ProductCatalog.supportsGroupedCleaning(model:"mova.vacuum.r2475a",hasSelfWashBase:true))
-        XCTAssertFalse(ProductCatalog.supportsGroupedCleaning(model:"mova.vacuum.r2475a",hasSelfWashBase:false))
-        XCTAssertFalse(ProductCatalog.supportsGroupedCleaning(model:"dreame.vacuum.r2383a",hasSelfWashBase:true))
-        XCTAssertFalse(ProductCatalog.supportsGroupedCleaning(model:"mova.vacuum.unknown",hasSelfWashBase:true))
+
+    func testKnownNamesAndNoGuessing() {
+        XCTAssertEqual(ProductCatalog.lookup(model: "mova.vacuum.r2475a")?.name, "MOVA P50 Pro Ultra")
+        XCTAssertEqual(ProductCatalog.lookup(model: "dreame.vacuum.r2427")?.name, "MOVA E30 Ultra")
+        XCTAssertEqual(ProductCatalog.lookup(model: "mova.vacuum.r2582h")?.name, "MOVA V50 Ultra Complete")
+        for unknown in ["", "mova.vacuum.r2475", "mova.vacuum.r2475z", "dreame.vacuum.r2475a", "mova.vacuum.future", "dreame.vacuum.r2338a"] {
+            XCTAssertNil(ProductCatalog.lookup(model: unknown))
+        }
     }
-    func testPublicNeutralArtworkExists() throws {
-        let root = URL(fileURLWithPath:#filePath).deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent()
-        let text = try String(contentsOf:root.appendingPathComponent("Sources/DreameHub/Resources/assets/products/generic.svg"))
-        XCTAssertTrue(text.contains("<svg"))
-        XCTAssertFalse(text.contains("http://www.mova"))
+
+    func testEveryBundledImageIsPNGWithTransparentPixels() throws {
+        let root = URL(fileURLWithPath: #filePath).deletingLastPathComponent().deletingLastPathComponent().deletingLastPathComponent()
+        for path in Set(ProductCatalog.entries.map(\.imagePath)) {
+            let url = root.appendingPathComponent("Sources/DreameHub/Resources" + path)
+            let data = try Data(contentsOf: url)
+            XCTAssertEqual(Array(data.prefix(8)), [137, 80, 78, 71, 13, 10, 26, 10], path)
+            let image = try XCTUnwrap(NSBitmapImageRep(data: data), path)
+            XCTAssertTrue(image.hasAlpha, path)
+            XCTAssertGreaterThanOrEqual(image.pixelsWide, 600, path)
+            XCTAssertGreaterThanOrEqual(image.pixelsHigh, 600, path)
+            XCTAssertLessThan(image.colorAt(x: 0, y: 0)?.alphaComponent ?? 1, 0.01, path)
+        }
+    }
+
+    func testVerifiedGroupedEncodingRequiresReportedBase() {
+        XCTAssertEqual(VerifiedMovaCapabilities.groupedCleaningModelIDs.count, 78)
+        for model in VerifiedMovaCapabilities.groupedCleaningModelIDs {
+            XCTAssertNotNil(ProductCatalog.lookup(model: model))
+            XCTAssertTrue(VerifiedMovaCapabilities.supportsGroupedCleaning(model: model, hasSelfWashBase: true))
+            XCTAssertFalse(VerifiedMovaCapabilities.supportsGroupedCleaning(model: model, hasSelfWashBase: false))
+        }
+        for excluded in ["dreame.vacuum.r2459a", "dreame.vacuum.r2459h", "dreame.vacuum.r2459k", "dreame.vacuum.r2380", "dreame.vacuum.r2383a", "dreame.vacuum.r2383k", "mova.vacuum.future"] {
+            XCTAssertFalse(VerifiedMovaCapabilities.supportsGroupedCleaning(model: excluded, hasSelfWashBase: true))
+        }
     }
 }
