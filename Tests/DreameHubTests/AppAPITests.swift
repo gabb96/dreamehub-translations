@@ -2,6 +2,12 @@ import XCTest
 @testable import DreameHub
 
 final class AppAPITests:XCTestCase {
+    func testInvalidAccountRejectedBeforeNetwork() async {
+        let api = AppAPI(readOnly:true)
+        let result = await api.response(path:"/api/login",method:"POST",body:["account":"unknown","username":"test","password":"fixture"],binary:nil)
+        XCTAssertEqual(result["status"] as? Int,400)
+        XCTAssertEqual((result["body"] as? [String:Any])?["error"] as? String,"Geçersiz hesap sağlayıcısı.")
+    }
     func testReadOnlyBuildBlocksEveryPhysicalMutationBeforeLogin() async {
         let api = AppAPI(readOnly:true)
         for path in ["/api/action","/api/setting","/api/go-to","/api/voice/install","/api/voice/editor/install","/api/tailscale/enable","/api/tailscale/disable","/api/credentials/forget"] {

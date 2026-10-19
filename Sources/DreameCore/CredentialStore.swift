@@ -5,8 +5,20 @@ public struct StoredCredentials: Codable, Sendable {
     public var username: String
     public var password: String
     public var region: String
-    public init(username: String, password: String, region: String) {
-        self.username = username; self.password = password; self.region = region
+    public var account: CloudAccount
+    public init(username: String, password: String, region: String, account: CloudAccount = .dreame) {
+        self.username = username; self.password = password; self.region = region; self.account = account
+    }
+    private enum CodingKeys: String, CodingKey { case username, password, region, account }
+    public init(from decoder: Decoder) throws {
+        let values = try decoder.container(keyedBy: CodingKeys.self)
+        username = try values.decode(String.self, forKey: .username)
+        password = try values.decode(String.self, forKey: .password)
+        region = try values.decode(String.self, forKey: .region)
+        account = try values.decodeIfPresent(CloudAccount.self, forKey: .account) ?? .dreame
+    }
+    public func matches(username: String, region: String, account: CloudAccount) -> Bool {
+        self.account == account && self.region == region && (username.isEmpty || self.username == username)
     }
 }
 

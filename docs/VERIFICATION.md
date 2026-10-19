@@ -1,6 +1,18 @@
 # Swift migration verification ledger
 
-Updated: 2026-10-18. This is an evidence ledger, not an all-features completion certificate. The existing installed Python application is unchanged. Normal Swift launch is control-capable; every migration test and UI inspection used `--read-only` or `--verify-readonly`. No physical operation is authorized by this document.
+Updated: 2026-10-19. This is an evidence ledger, not an all-features completion certificate. The existing installed Python application is unchanged. Normal Swift launch is control-capable; every migration test and UI inspection used `--read-only` or `--verify-readonly`. No physical operation is authorized by this document.
+
+## MOVA v0.2.2 preview — 2026-10-19
+
+- Explicit provider selection routes MOVA credentials to the MOVA service, using provider-specific tenant, app identity, signing and refresh context. No automatic cross-provider credential fallback is used.
+- Offline tests cover MOVA routing/signing/refresh, legacy credential decoding, saved-account mismatch rejection and exact model recognition. These are synthetic transport tests, not live login evidence.
+- Catalog: 22 families / 84 exact IDs. Grouped cleaning encoding: 78 audited IDs plus a live self-wash-base property guard. Catalog entries do not unlock target navigation.
+- Compact login layout was inspected at 720 × 540 without authenticating; the provider selector and connect button fit. Native panel lifecycle checks do not make any cloud/device requests.
+- **No real MOVA account or device validation has occurred. Authentication, maps, photos, physical commands and voice installation remain unverified on MOVA. No movement command was sent for this update.**
+- Public builds exclude manufacturer PNGs without verified redistribution permission and use neutral artwork. Private-build image checks are not evidence that those images ship in the public DMG.
+- Earlier Dreame evidence below remains specific to the named Dreame device. Versioned test totals below are historical, not v0.2.2 release totals.
+
+**Türkçe:** MOVA entegrasyonu gerçek hesap veya robotla doğrulanmadı. Giriş, harita, fotoğraf, fiziksel komut ve ses kurulumu doğrulama bekliyor. Bu sürümün çevrimdışı testleri, mevcut Dreame cihazındaki önceki okuma kanıtının MOVA'ya uygulanabileceği anlamına gelmez. MOVA hedefe gitme açık değildir; bu güncellemede hareket komutu gönderilmedi. [Ayrıntılar](MOVA.md).
 
 ## Observed evidence
 
@@ -53,3 +65,7 @@ Point navigation is owner-confirmed working in the previous application. The Swi
 - 3D walls and robot/dock shapes are presentation of real 2D positions, not measured 3D geometry. POV is not a camera feed.
 - Native codec/product-artwork redistribution rights, source notices, signing/notarization and broader model compatibility require separate release review.
 - Existing launch ZIPs, DMG and videos are legacy Python-era artifacts. Correcting their adjacent Markdown does not rewrite their archived contents or make them Swift evidence.
+
+## v0.2.2 public release checks — 2026-10-19
+
+61 Swift tests passed (0 failures), plus MapPresentationTests.js, MapRefreshTests.js and RobotMotionTests.js. These are offline regression tests, not MOVA account/device validation. Manufacturer PNGs and the private codec binary are excluded from the public package; neutral original SVG artwork is included. Older private-build observations above are historical and do not describe bundled public-release assets.

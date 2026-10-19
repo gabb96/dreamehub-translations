@@ -7,6 +7,7 @@ import CommonCrypto
 public actor CloudClient {
     private let session: URLSession
     private var country = "sg"
+    private var account: CloudAccount = .dreame
     private var username = ""
     private var accessToken: String?
     private var refreshToken: String?
@@ -20,28 +21,30 @@ public actor CloudClient {
     private var authGeneration = 0
     private let visitorID = UUID().uuidString.replacingOccurrences(of: "-", with: "").lowercased()
     // Public application interoperability constants, not user credentials.
-    private let clientID = "EETjszu*XI5znHsI"
+    private var clientID: String { account.clientID }
     public init(session: URLSession = .shared) { self.session = session }
 
-    @discardableResult public func login(username: String, password: String, country: String) async throws -> CloudSession {
+    @discardableResult public func login(username: String, password: String, country: String, account: CloudAccount = .dreame) async throws -> CloudSession {
         guard ["cn", "sg", "us", "eu", "ru", "kr"].contains(country) else { throw CloudError.invalidRegion }
         authGeneration += 1
-        self.country = country; self.username = username
+        self.country = country; self.username = username; self.account = account
+        self.userID = ""; self.expiresAt = .distantPast
         self.accessToken = nil; self.refreshToken = nil
-        self.tenantID = "000000"; self.region = nil; self.language = nil; self.countryCode = nil
+        self.tenantID = account.tenant; self.region = nil; self.language = nil; self.countryCode = nil
         let fields = "grant_type=password&scope=all&platform=ANDROID&type=account&username=\(Self.escaped(username))&password=\(Self.md5(password + "RAylYC%fmSKp7%Tq"))"
         return try await authenticate(body: fields)
     }
 
     public func logout() { authGeneration += 1; accessToken = nil; refreshToken = nil; username = ""; userID = ""; expiresAt = .distantPast }
 
-    private var baseURL: String { "https://\(country).iot.dreame.tech:13267" }
+    private var baseURL: String { "https://\(country).\(account.domain):13267" }
     private static func md5(_ text: String) -> String { Insecure.MD5.hash(data: Data(text.utf8)).map { String(format: "%02x", $0) }.joined() }
     private static func escaped(_ text: String) -> String { text.addingPercentEncoding(withAllowedCharacters: CharacterSet(charactersIn: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-._~")) ?? "" }
 
     private func headers(contentType: String, authenticated: Bool) throws -> [String:String] {
-        var result = ["User-Agent":"Dart/3.9 (dart:io)", "authorization":"Basic ZHJlYW1lX2FwcHYxOkFQXmR2QHpAU1FZVnhOODg=", "tenant-id":tenantID, "content-type":contentType,
-                      "dreame-meta":"cv=a_102060300;canvasHash=\(Self.md5(username + "c").prefix(8));webglHash=\(Self.md5(username + "w").prefix(8));visitorIdHash=\(visitorID)"]
+        var result = ["User-Agent":account.userAgent, "authorization":account.authorization, "tenant-id":tenantID, "content-type":contentType,
+                      "dreame-meta":"cv=a_\(account.version);canvasHash=\(Self.md5(username + "c").prefix(8));webglHash=\(Self.md5(username + "w").prefix(8));visitorIdHash=\(visitorID)"]
+        if account == .mova { result["dreame-psd"] = "new" }
         if authenticated, let token = accessToken { result["dreame-auth"] = token }
         if let region, let language, let countryCode {
             let data = Data("\(region)|\(language)|\(countryCode)".utf8), key = Data(clientID.utf8)

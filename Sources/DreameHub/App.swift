@@ -10,7 +10,7 @@ enum DreameHubMain {
                 do {
                     guard let credentials = try CredentialStore.load() else { throw AppError.message("Kayıtlı hesap yok.") }
                     let cloud = CloudClient()
-                    _ = try await cloud.login(username: credentials.username, password: credentials.password, country: credentials.region)
+                    _ = try await cloud.login(username: credentials.username, password: credentials.password, country: credentials.region, account: credentials.account)
                     let devices = try await cloud.devices()
                     print("Swift cloud login: PASS; vacuum count: \(devices.count)")
                     for device in devices {

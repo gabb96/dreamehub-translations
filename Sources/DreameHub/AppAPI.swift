@@ -7,7 +7,7 @@ actor AppAPI {
     private var remembered = false
     private var refreshing = false
     private var refreshed = Date.distantPast
-    private var credentialSummary:[String:Any] = ["available":true,"remembered":false,"username":"","region":"sg"]
+    private var credentialSummary:[String:Any] = ["available":true,"remembered":false,"username":"","region":"sg","account":"dreame"]
     private var generation = 0
     private var mapService:MapService?
     private var mapReady = false
@@ -38,8 +38,8 @@ actor AppAPI {
             guard current == generation else { return }
             if let saved {
                 remembered = true
-                credentialSummary = ["available":true,"remembered":true,"username":saved.username,"region":saved.region]
-                try await service.login(username:saved.username,password:saved.password,region:saved.region,remember:false)
+                credentialSummary = ["available":true,"remembered":true,"username":saved.username,"region":saved.region,"account":saved.account.rawValue]
+                try await service.login(username:saved.username,password:saved.password,region:saved.region,remember:false,account:saved.account)
                 guard current == generation else { return }
                 boot = ["busy":false,"stage":"ready","error":""]
             } else { boot = ["busy":false,"stage":"login_required","error":""] }
@@ -48,9 +48,8 @@ actor AppAPI {
     private func state() async -> [String:Any] {
         var result = await service.publicState()
         if var device = result["device"] as? [String:Any] {
-            // Public-source variant uses the existing neutral robot fallback.
-            // Product artwork is deliberately not redistributed.
-            device.removeValue(forKey:"image_url")
+            // Public build uses neutral artwork; no manufacturer product PNGs.
+            device["image_url"] = "/assets/products/generic.svg"
             var supports = device["supports"] as? [String:Bool] ?? [:]
             supports["map"] = true // Map tab must remain available to report loading/fetch failures.
             supports["go_to"] = !readOnly && mapReady && GoToController.supports(model:device["model"] as? String ?? "")
@@ -138,16 +137,20 @@ actor AppAPI {
             return tailscaleState
         case "/api/login":
             var user = body["username"] as? String ?? "", password = body["password"] as? String ?? "", region = body["region"] as? String ?? "sg"
+            guard let account = CloudAccount(rawValue:body["account"] as? String ?? "dreame") else { throw AppError.message("Geçersiz hesap sağlayıcısı.") }
             if body["use_saved"] as? Bool == true {
                 guard let saved = try await Task.detached(operation:{ try CredentialStore.load() }).value else { throw AppError.message("Kayıtlı hesap bulunamadı.") }
-                user = saved.username; password = saved.password; region = saved.region
+                guard saved.matches(username:user,region:region,account:account) else { throw AppError.message("Hesap veya bölge değişti. Parolanı yeniden gir.") }
+                user = saved.username; password = saved.password
             }
             guard !user.isEmpty,!password.isEmpty else { throw AppError.message("Hesap bilgilerini eksiksiz gir.") }
             try await navigation?.cancel(); navigation = nil
             voiceHost?.close(); voiceHost = nil
             generation += 1; mapService = nil; historyService = nil; voiceService = nil
             mapReady = false; viewingHistory = false
-            try await service.login(username:user,password:password,region:region,remember:!readOnly && (body["remember"] as? Bool ?? false))
+            let save = !readOnly && (body["remember"] as? Bool ?? false)
+            try await service.login(username:user,password:password,region:region,remember:save,account:account)
+            if save { remembered = true; credentialSummary = ["available":true,"remembered":true,"username":user,"region":region,"account":account.rawValue] }
             boot = ["busy":false,"stage":"ready","error":""]
             return await state()
         case "/api/logout":
@@ -157,7 +160,7 @@ actor AppAPI {
         case "/api/credentials/forget":
             try requireControl()
             try await Task.detached { try CredentialStore.delete() }.value
-            remembered = false; credentialSummary = ["available":true,"remembered":false,"username":"","region":"sg"]
+            remembered = false; credentialSummary = ["available":true,"remembered":false,"username":"","region":"sg","account":"dreame"]
             return ["ok":true]
         case "/api/device/select":
             guard let id = body["device_id"] as? String else { throw AppError.message("Cihaz seçilmedi.") }

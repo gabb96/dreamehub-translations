@@ -4,7 +4,9 @@
 
 ## Türkçe
 
-**Sunucu bölgesi, şu anda bulunduğunuz ülke değildir.** Dreame hesabınızın ve robotunuzun kayıtlı olduğu bulut sunucusunu seçmelisiniz. Önce resmî **Dreamehome** uygulamasında kullandığınız hesabı ve hesap bölgesini kontrol edin.
+**Önce hesap sağlayıcısını seçin:** robotunuz Dreame Home'da kayıtlıysa **Dreame Home**, MOVA Home'da kayıtlıysa **MOVA Home**. Robotun markası tek başına hesap sağlayıcısını belirlemez. Hesap bilgileri diğer markanın sunucularında otomatik denenmez. MOVA bağlantısı henüz gerçek hesap veya cihazda doğrulanmamıştır; [kapsam](MOVA.md).
+
+**Sunucu bölgesi, şu anda bulunduğunuz ülke değildir.** Hesabınızın ve robotunuzun kayıtlı olduğu bulut sunucusunu seçmelisiniz. Önce resmî **Dreame Home / MOVA Home** uygulamasında kullandığınız hesabı ve hesap bölgesini kontrol edin. Kanada'da bulunmak tek başına ABD sunucusunu doğrulamaz.
 
 | Dreame Hub seçeneği | Sunucu kodu | Ne zaman seçilmeli? |
 | --- | --- | --- |
@@ -20,17 +22,19 @@ Türkiye’de olmanız otomatik olarak **Avrupa** seçmeniz gerektiği anlamına
 
 ### Giriş reddediliyor veya robot görünmüyor
 
-1. Aynı hesapla resmî Dreamehome uygulamasına giriş yapabildiğinizi ve robotun orada göründüğünü kontrol edin. Dreame Hub, kullanıcı adı/e-posta ve **Dreame hesap parolası** ile giriş yapar; Wi-Fi parolasını kullanmayın.
-2. Apple/Google gibi bir sağlayıcıyla giriş yapıyorsanız, sağlayıcınızın parolasını Dreame Hub’a yazmayın. Hesabınızın ayrıca Dreame parolası olup olmadığını resmî uygulamanın hesap/parola seçeneklerinden kontrol edin; destekleniyorsa parola belirleme veya sıfırlama işlemini oradan yapın.
+1. Aynı hesapla resmî Dreame Home veya MOVA Home uygulamasına giriş yapabildiğinizi ve robotun orada göründüğünü kontrol edin. Dreame Hub, kullanıcı adı/e-posta ve **seçilen hizmetin hesap parolası** ile giriş yapar; Wi-Fi parolasını kullanmayın.
+2. Apple/Google gibi bir sağlayıcıyla giriş yapıyorsanız, sağlayıcınızın parolasını Dreame Hub’a yazmayın. Hesabınızın ayrıca Dreame/MOVA parolası olup olmadığını resmî uygulamanın hesap/parola seçeneklerinden kontrol edin; destekleniyorsa parola belirleme veya sıfırlama işlemini oradan yapın.
 3. Doğru hesap bölgesini seçin. Dreame Hub şu anda başarısız girişte diğer sunucuları otomatik taramaz. Bölgeyi rastgele ve art arda denemek yerine önce hesabın kayıtlı bölgesini doğrulayın.
-4. **Kayıtlı hesap kullanırken bölgeyi değiştirdiyseniz parolayı yeniden yazın.** Parola alanı boşken “Kayıtlı hesapla bağlan” işlemi, açılır menüdeki yeni seçim yerine kayıtlı hesabın eski bölgesini kullanır. Yeni bölgeyle başarılı girişte “Bilgilerimi hatırla” seçiliyse yeni bilgiler kaydedilir.
+4. **Kayıtlı hesabın sağlayıcısını, kullanıcı adını veya bölgesini değiştirdiyseniz parolayı yeniden yazın.** v0.2.2'de boş parola yalnız kayıtlı hesapla bu alanlar eşleşiyorsa kullanılabilir; eski bölge veya sağlayıcı sessizce geri yüklenmez. Başarılı girişte “Bilgilerimi hatırla” seçiliyse yeni bilgiler kaydedilir. Daha eski sürümlerdeki boş parola/eski bölge davranışı için v0.2.2'ye güncelleyin.
 5. Hâlâ bağlanamıyorsanız hata mesajını ve seçtiğiniz bölgeyi not edin; parola, erişim anahtarı veya hesap kimlik bilgilerini paylaşmayın. Art arda giriş denemelerini durdurup ağ/servis durumunu ve resmî uygulamadaki girişi kontrol edin.
 
 Sunucu seçimini değiştirmek hesabınızı veya robotunuzu başka bölgeye **taşımaz**. Bu sorunu çözmek için robotu sıfırlamanız ya da resmî uygulamadaki hesap bölgesini değiştirmeniz gerekmez.
 
 ## English
 
-**Server region is not your current physical location.** Select the cloud server where your Dreame account and robot are registered. Start by checking the account and account region used in the official **Dreamehome** app.
+**Select the account provider first:** use **Dreame Home** if that is where your robot is registered, or **MOVA Home** for a MOVA Home account. The robot's brand alone does not identify its account provider. Credentials are never automatically tried against the other brand's service. MOVA login has not yet been validated with a real account or device; [scope](MOVA.md).
+
+**Server region is not your current physical location.** Select the cloud server where your account and robot are registered. Start by checking the account and region used in the official **Dreame Home / MOVA Home** app. Being in Canada alone does not confirm that the US server is correct.
 
 | Dreame Hub option | Server code | When to use it |
 | --- | --- | --- |
@@ -46,10 +50,10 @@ Being in Türkiye does not automatically mean you should select **Europe**. If E
 
 ### Login rejected or robot missing
 
-1. Check that you can sign in to the official Dreamehome app with the same account and see your robot there. Dreame Hub uses a username/email and **Dreame account password**, not your Wi-Fi password.
-2. If you use Apple/Google or another sign-in provider, do not enter that provider’s password into Dreame Hub. Check the official app’s account/password options for a separate Dreame password; set or reset it there if your account supports that option.
+1. Check that you can sign in to the official Dreame Home or MOVA Home app with the same account and see your robot there. Dreame Hub uses a username/email and **the selected service's account password**, not your Wi-Fi password.
+2. If you use Apple/Google or another sign-in provider, do not enter that provider’s password into Dreame Hub. Check the official app’s account/password options for a separate Dreame/MOVA password; set or reset it there if your account supports that option.
 3. Select the correct account region. Dreame Hub does not automatically try other servers after a failed login. Avoid repeated random attempts; verify the account’s registered region first.
-4. **Re-enter your password when changing the region of a saved account.** With an empty password field, “Connect with saved account” uses the saved region instead of the new dropdown selection. A successful login saves the new details when “Remember me” is enabled.
+4. **Re-enter your password when changing a saved account's provider, username or region.** In v0.2.2, an empty password can reuse saved credentials only when those fields match; the previous provider or region is not silently restored. A successful login saves the new details when “Remember me” is enabled. Update older versions to v0.2.2 to avoid their blank-password/old-region behavior.
 5. If connection still fails, note the error and selected region without sharing passwords, tokens, or account credentials. Stop repeated attempts and check your network/service availability and login in the official app.
 
 Changing Dreame Hub’s server selection does **not migrate** your account or robot. You do not need to reset the robot or change the account region in the official app to troubleshoot this selection.

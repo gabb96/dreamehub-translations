@@ -4,9 +4,11 @@
 
 Türkçe · [English](README.md)
 
-[![macOS için indir](https://img.shields.io/badge/macOS_i%C3%A7in_indir-Apple_Silicon-3478F6?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/retoucheroz/dreamehub/releases/download/v0.2.1/Dreame-Hub-Swift-0.2.1-preview-arm64.dmg)
+[![macOS için indir](https://img.shields.io/badge/macOS_i%C3%A7in_indir-Apple_Silicon-3478F6?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/retoucheroz/dreamehub/releases/download/v0.2.2/Dreame-Hub-Swift-0.2.2-preview-arm64.dmg)
 
-**[v0.2.1 DMG indir](https://github.com/retoucheroz/dreamehub/releases/download/v0.2.1/Dreame-Hub-Swift-0.2.1-preview-arm64.dmg)** · macOS 13+ · M1/M2/M3/M4 ve sonraki Apple Silicon Mac’ler. DMG’yi aç, uygulamayı Applications klasörüne sürükle, başlat ve menü çubuğundaki ikonunu kullan. Bu önizleme ad-hoc imzalıdır; Apple noter onayı yoktur. İlk açılışta Gizlilik ve Güvenlik bölümünden onay gerekebilir. Bu indirme Intel Mac’leri desteklemez. [Sürüm notları](https://github.com/retoucheroz/dreamehub/releases/tag/v0.2.1).
+**[v0.2.2 DMG indir](https://github.com/retoucheroz/dreamehub/releases/download/v0.2.2/Dreame-Hub-Swift-0.2.2-preview-arm64.dmg)** · macOS 13+ · M1/M2/M3/M4 ve sonraki Apple Silicon Mac’ler. DMG’yi aç, uygulamayı Applications klasörüne sürükle, başlat ve menü çubuğundaki ikonunu kullan. Bu önizleme ad-hoc imzalıdır; Apple noter onayı yoktur. İlk açılışta Gizlilik ve Güvenlik bölümünden onay gerekebilir. Bu indirme Intel Mac’leri desteklemez. [Sürüm notları](https://github.com/retoucheroz/dreamehub/releases/tag/v0.2.2).
+
+**v0.2.2 yeniliği: MOVA Home hesap desteği (önizleme).** Girişte Dreame Home veya MOVA Home seçilebilir. MOVA kataloğu 22 model ailesini / 84 tam kimliği tanır. **Entegrasyon henüz gerçek MOVA hesabı veya robotuyla doğrulanmadı:** canlı giriş, harita ve fiziksel kontroller doğrulama bekliyor. MOVA için hedefe gitme açık değildir. [MOVA ayrıntıları ve sınırlar](docs/MOVA.md).
 
 Robotunu kontrol et, haritasını keşfet, gördüğü nesneleri incele. Hepsi macOS menü çubuğundan açılan sade bir panelde. **Robota root gerekmez. Python çalıştırılmaz.** Swift ile geliştirilir; mevcut arayüz Apple WKWebView içinde korunur.
 
@@ -40,9 +42,9 @@ Tanıtımda gerçek arayüz ve kayıtlı harita kullanılır. Robot hareketi çe
 
 ![Applications’a taşıma ve macOS engellerse yalnız bu uygulama için açılış onayı](docs/media/install-guide.svg)
 
-**Giriş bölgesi:** yaşadığın ülkeyi değil Dreamehome hesabının kayıtlı olduğu sunucuyu seç. Doğru hesap bilgileriyle Avrupa girişini reddediyor veya robotu göstermiyorsa Singapur / Diğer alternatif olabilir. ABD, Çin ve Rusya da o sunucularda kayıtlı hesaplar içindir. Kayıtlı bölgeyi değiştirirken parolayı yeniden yaz; boş bırakırsan eski kayıtlı bölge kullanılabilir. [Tüm seçenekler ve çözüm adımları](docs/LOGIN-REGIONS.md).
+**Giriş:** önce robotunun kayıtlı olduğu uygulamayı—Dreame Home veya MOVA Home—ardından hesabının sunucusunu seç; bu her zaman yaşadığın ülke değildir. Doğru Dreame hesabıyla Avrupa girişi reddediliyor veya robot görünmüyorsa Singapur / Diğer alternatif olabilir. ABD, Çin ve Rusya da o sunucularda kayıtlı hesaplar içindir. Kayıtlı sağlayıcı, kullanıcı adı veya bölge değişirse parola yeniden istenir; eski hesap sessizce kullanılmaz. [Tüm seçenekler ve çözüm adımları](docs/LOGIN-REGIONS.md).
 
-Apple Silicon Mac, macOS 13 veya üzeri ve Dreame hesabı gerekir. Giriş yap, robotunu seç ve menü çubuğu ikonundan Dreame Hub’ı aç. Kaydedilen hesap bilgileri macOS Anahtar Zinciri’nde kalır.
+Apple Silicon Mac, macOS 13 veya üzeri ve Dreame Home ya da MOVA Home hesabı gerekir. Giriş yap, robotunu seç ve menü çubuğu ikonundan Dreame Hub’ı aç. Seçilen sağlayıcı dahil hesap bilgileri macOS Anahtar Zinciri’nde kalır. Önceden kaydedilmiş Dreame hesaplarıyla uyumluluk korunur.
 
 Kaynaktan derlemek için uyumlu Swift araçlarını kur ve çalıştır:
 
@@ -61,8 +63,10 @@ Dreame Hub’ı robotunuzla denediniz mi? Diğer kullanıcıların hangi özelli
 
 Model kataloğunda **L10s Pro Ultra Heat, L20 Ultra, L40/L40s Ultra, L50 Ultra, L60 Ultra, X40/X50/X60 Ultra, Matrix10, Aqua10, D20 ve D30 çeşitleri** bulunur. [Tam model listesi ve özellik kapsamı](docs/SUPPORTED-MODELS.md).
 
+MOVA önizleme kataloğu **E20/E30/E40/E50, M1, MOBIUS 60, P50/P70, S10/S70, V50/V70 ve Z50/Z60/Z70 çeşitlerini** ekler. Modeli tanımak, gerçek cihaz desteğinin test edildiği anlamına gelmez. Herkese açık paket nötr görseller kullanır; yeniden dağıtım izni doğrulanmamış üretici PNG’leri pakete dahil değildir.
+
 <sub>Swift önizlemesi bir L10s Pro Ultra Heat üzerinde yalnız okuma ile kontrol edildi. Fiziksel komutlar ve hareket hâlindeki güncelleme gecikmesi Swift’te henüz canlı doğrulanmadı. 3D görünüm gerçek 2D haritanın perspektifidir; ham 3D LiDAR veya kamera akışı değildir. [Doğrulama ayrıntıları](docs/VERIFICATION.md).</sub>
 
 ---
 
-Dreame veya Apple ile bağlantılı olmayan, bağımsız bir uygulamadır. Özellikler modele göre değişir. Kaynak paketinde nötr görseller kullanılır; tanıtım özel uygulamanın gerçek arayüzünden kaydedildi. [Üçüncü taraf bildirimleri](THIRD_PARTY_NOTICES.md) · [MIT lisansı](LICENSE).
+Dreame, MOVA veya Apple ile bağlantılı olmayan, bağımsız bir uygulamadır. Özellikler modele göre değişir. Kaynak paketinde nötr görseller kullanılır; tanıtım özel uygulamanın gerçek arayüzünden kaydedildi. [Üçüncü taraf bildirimleri](THIRD_PARTY_NOTICES.md) · [MIT lisansı](LICENSE).
